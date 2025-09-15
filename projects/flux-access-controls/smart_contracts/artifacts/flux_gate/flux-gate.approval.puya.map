@@ -1,0 +1,2659 @@
+{
+  "version": 3,
+  "sources": [
+    "/Users/kierannelson/Development/flux-access-controls/projects/flux-access-controls/smart_contracts/flux_gate/flux-gate.algo.ts"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAmBA;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;AAAA;;AAsEG;;AAAA;AAAA;AAAA;;AAAA;AAtEH;;;AAsEG;;;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;AAVA;;AAAA;AAAA;AAAA;;AAAA;AA5DH;;;AAAA;;;AAAA;AA4DG;;;AAAA;;AAlBA;;AAAA;AAAA;AAAA;;AAAA;AA1CH;;;AAAA;AA0CG;;;AAAA;;AAlBA;;AAAA;AAAA;AAAA;;AAAA;AAxBH;;;AAAA;AAAA;;;AAwBG;;;AAAA;;AANA;;AAAA;AAAA;AAAA;;AAAA;AAlBH;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAkBG;;;AAAA;;AALA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAbH;;;AAAA;AAAA;;AAAA;;;AAAA;AAaG;;;AAAA;;AAAD;;;AAVA;AAYE;;AAAA;;AAGF;;;AAEE;;AAAA;;AAAuC;;AAAvC;AAAA;;;AAAA;;AAAA;;AAA0E;;;;AAA1E;AAAA;;;;AAAA;AAbiD;AAcjD;;AAAA;;;;;;;AAGF;;;;AAGgB;;AAxBhB;AAAA;AAAA;AAAA;AAwBS;AAAP;AApBiD;AAsBZ;AAAA;AACM;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAA3B;;AAAA;AAEI;AAvBtB;AAAA;AAAA;AAAA;AAuByB;;AAAA;AAAvB;;;AACM;;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;AAAA;AAAgB;;;AAAe;;;AAA/B;AAAA;;;AAEF;;AAAA;;AAAA;AAAA;AAAA;;AAAA;;AAAA;;AAAA;AAAA;;AA5B6C;AAiCjD;;AAAA;;AARyD;;AAAA;AAAA;AAAA;;;;;AAU3D;;;;AAGgB;;AA1ChB;AAAA;AAAA;AAAA;AA0CS;AAAP;AAtCiD;AAwCZ;AAAA;AAEjB;AAxCtB;AAAA;AAAA;AAAA;AAwCyB;;AAAA;AAAvB;;;AACM;;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;AAAA;AAAgB;;;AAAe;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAA/B;AAAA;;;AAEF;;AAAA;;AAAA;AAAA;AAAA;;AAAA;;AAAkB;;;;;;;;;;;AAAlB;AAAA;;AA7C6C;AAkDjD;;AAAA;;AARyD;;AAAA;AAAA;AAAA;;;;;AAW3D;;;AAGgB;;AA5DhB;AAAA;AAAA;AAAA;AA4DS;AAAP;AAGsC;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AA7DsB;;AAAA;;AAAA;AA8D5D;AAAA;;AAGF;;;AAjE8D;;AAAA;;AAAA;AAoEhB;AAAA;AAC9B;;;AAAd",
+  "op_pc_offset": 0,
+  "pc_events": {
+    "1": {
+      "subroutine": "@algorandfoundation/algorand-typescript/arc4/index.d.ts::Contract.approvalProgram",
+      "params": {},
+      "block": "main",
+      "stack_in": [],
+      "op": "intcblock 1 0 9 8"
+    },
+    "7": {
+      "op": "bytecblock \"ft\" \"admin_account\" \"\" \"current_num_tiers\" \"flux_record\""
+    },
+    "57": {
+      "op": "txn NumAppArgs",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "59": {
+      "op": "bz main_after_if_else@12",
+      "stack_out": []
+    },
+    "62": {
+      "op": "pushbytess 0x3b01665e 0xf927a9f6 0x5b47b18e 0x6c8a0318 0xa07d00cf 0x1d96b637 // method \"createApplication(account,uint64)void\", method \"initApplication(pay)void\", method \"addFluxTier(uint64,uint64)void\", method \"removeFluxTier(uint64)void\", method \"setUserTier(address,uint64)void\", method \"getUserTier(address)uint8\"",
+      "defined_out": [
+        "Method(addFluxTier(uint64,uint64)void)",
+        "Method(createApplication(account,uint64)void)",
+        "Method(getUserTier(address)uint8)",
+        "Method(initApplication(pay)void)",
+        "Method(removeFluxTier(uint64)void)",
+        "Method(setUserTier(address,uint64)void)"
+      ],
+      "stack_out": [
+        "Method(createApplication(account,uint64)void)",
+        "Method(initApplication(pay)void)",
+        "Method(addFluxTier(uint64,uint64)void)",
+        "Method(removeFluxTier(uint64)void)",
+        "Method(setUserTier(address,uint64)void)",
+        "Method(getUserTier(address)uint8)"
+      ]
+    },
+    "94": {
+      "op": "txna ApplicationArgs 0",
+      "defined_out": [
+        "Method(addFluxTier(uint64,uint64)void)",
+        "Method(createApplication(account,uint64)void)",
+        "Method(getUserTier(address)uint8)",
+        "Method(initApplication(pay)void)",
+        "Method(removeFluxTier(uint64)void)",
+        "Method(setUserTier(address,uint64)void)",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "Method(createApplication(account,uint64)void)",
+        "Method(initApplication(pay)void)",
+        "Method(addFluxTier(uint64,uint64)void)",
+        "Method(removeFluxTier(uint64)void)",
+        "Method(setUserTier(address,uint64)void)",
+        "Method(getUserTier(address)uint8)",
+        "tmp%2#0"
+      ]
+    },
+    "97": {
+      "op": "match main_createApplication_route@3 main_initApplication_route@4 main_addFluxTier_route@5 main_removeFluxTier_route@6 main_setUserTier_route@7 main_getUserTier_route@8",
+      "stack_out": []
+    },
+    "111": {
+      "block": "main_after_if_else@12",
+      "stack_in": [],
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "112": {
+      "op": "return",
+      "stack_out": []
+    },
+    "113": {
+      "block": "main_getUserTier_route@8",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%30#0"
+      ],
+      "stack_out": [
+        "tmp%30#0"
+      ]
+    },
+    "115": {
+      "op": "!",
+      "defined_out": [
+        "tmp%31#0"
+      ],
+      "stack_out": [
+        "tmp%31#0"
+      ]
+    },
+    "116": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "117": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%32#0"
+      ],
+      "stack_out": [
+        "tmp%32#0"
+      ]
+    },
+    "119": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "120": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[32]%1#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[32]%1#0"
+      ]
+    },
+    "123": {
+      "callsub": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.getUserTier",
+      "op": "callsub getUserTier",
+      "defined_out": [
+        "tmp%34#0"
+      ],
+      "stack_out": [
+        "tmp%34#0"
+      ]
+    },
+    "126": {
+      "op": "pushbytes 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "tmp%34#0"
+      ],
+      "stack_out": [
+        "tmp%34#0",
+        "0x151f7c75"
+      ]
+    },
+    "132": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "tmp%34#0"
+      ]
+    },
+    "133": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%35#0"
+      ],
+      "stack_out": [
+        "tmp%35#0"
+      ]
+    },
+    "134": {
+      "op": "log",
+      "stack_out": []
+    },
+    "135": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "136": {
+      "op": "return",
+      "stack_out": []
+    },
+    "137": {
+      "block": "main_setUserTier_route@7",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%25#0"
+      ],
+      "stack_out": [
+        "tmp%25#0"
+      ]
+    },
+    "139": {
+      "op": "!",
+      "defined_out": [
+        "tmp%26#0"
+      ],
+      "stack_out": [
+        "tmp%26#0"
+      ]
+    },
+    "140": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "141": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%27#0"
+      ],
+      "stack_out": [
+        "tmp%27#0"
+      ]
+    },
+    "143": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "144": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[32]%0#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[32]%0#0"
+      ]
+    },
+    "147": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "reinterpret_bytes[32]%0#0",
+        "reinterpret_bytes[8]%4#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[32]%0#0",
+        "reinterpret_bytes[8]%4#0"
+      ]
+    },
+    "150": {
+      "op": "btoi",
+      "defined_out": [
+        "reinterpret_bytes[32]%0#0",
+        "tmp%29#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[32]%0#0",
+        "tmp%29#0"
+      ]
+    },
+    "151": {
+      "callsub": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.setUserTier",
+      "op": "callsub setUserTier",
+      "stack_out": []
+    },
+    "154": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "155": {
+      "op": "return",
+      "stack_out": []
+    },
+    "156": {
+      "block": "main_removeFluxTier_route@6",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%20#0"
+      ],
+      "stack_out": [
+        "tmp%20#0"
+      ]
+    },
+    "158": {
+      "op": "!",
+      "defined_out": [
+        "tmp%21#0"
+      ],
+      "stack_out": [
+        "tmp%21#0"
+      ]
+    },
+    "159": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "160": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%22#0"
+      ],
+      "stack_out": [
+        "tmp%22#0"
+      ]
+    },
+    "162": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "163": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[8]%3#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[8]%3#0"
+      ]
+    },
+    "166": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%24#0"
+      ],
+      "stack_out": [
+        "tmp%24#0"
+      ]
+    },
+    "167": {
+      "callsub": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.removeFluxTier",
+      "op": "callsub removeFluxTier",
+      "stack_out": []
+    },
+    "170": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "171": {
+      "op": "return",
+      "stack_out": []
+    },
+    "172": {
+      "block": "main_addFluxTier_route@5",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%15#0"
+      ],
+      "stack_out": [
+        "tmp%15#0"
+      ]
+    },
+    "174": {
+      "op": "!",
+      "defined_out": [
+        "tmp%16#0"
+      ],
+      "stack_out": [
+        "tmp%16#0"
+      ]
+    },
+    "175": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "176": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%17#0"
+      ],
+      "stack_out": [
+        "tmp%17#0"
+      ]
+    },
+    "178": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "179": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[8]%1#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[8]%1#0"
+      ]
+    },
+    "182": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%19#0"
+      ],
+      "stack_out": [
+        "tmp%19#0"
+      ]
+    },
+    "183": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "reinterpret_bytes[8]%2#0",
+        "tmp%19#0"
+      ],
+      "stack_out": [
+        "tmp%19#0",
+        "reinterpret_bytes[8]%2#0"
+      ]
+    },
+    "186": {
+      "callsub": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.addFluxTier",
+      "op": "callsub addFluxTier",
+      "stack_out": []
+    },
+    "189": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "190": {
+      "op": "return",
+      "stack_out": []
+    },
+    "191": {
+      "block": "main_initApplication_route@4",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "tmp%10#0"
+      ]
+    },
+    "193": {
+      "op": "!",
+      "defined_out": [
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "tmp%11#0"
+      ]
+    },
+    "194": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "195": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%12#0"
+      ],
+      "stack_out": [
+        "tmp%12#0"
+      ]
+    },
+    "197": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "198": {
+      "op": "txn GroupIndex",
+      "defined_out": [
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "tmp%14#0"
+      ]
+    },
+    "200": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1",
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "tmp%14#0",
+        "1"
+      ]
+    },
+    "201": {
+      "op": "-",
+      "defined_out": [
+        "gtxn_idx%0#0"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0"
+      ]
+    },
+    "202": {
+      "op": "dup",
+      "defined_out": [
+        "gtxn_idx%0#0",
+        "gtxn_idx%0#0 (copy)"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0",
+        "gtxn_idx%0#0 (copy)"
+      ]
+    },
+    "203": {
+      "op": "gtxns TypeEnum",
+      "defined_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type%0#0"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type%0#0"
+      ]
+    },
+    "205": {
+      "op": "intc_0 // pay",
+      "defined_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type%0#0",
+        "pay"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type%0#0",
+        "pay"
+      ]
+    },
+    "206": {
+      "op": "==",
+      "defined_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type_matches%0#0"
+      ],
+      "stack_out": [
+        "gtxn_idx%0#0",
+        "gtxn_type_matches%0#0"
+      ]
+    },
+    "207": {
+      "error": "transaction type is pay",
+      "op": "assert // transaction type is pay",
+      "stack_out": [
+        "gtxn_idx%0#0"
+      ]
+    },
+    "208": {
+      "callsub": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.initApplication",
+      "op": "callsub initApplication",
+      "stack_out": []
+    },
+    "211": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "212": {
+      "op": "return",
+      "stack_out": []
+    },
+    "213": {
+      "block": "main_createApplication_route@3",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "215": {
+      "op": "!",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "216": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "217": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "tmp%5#0"
+      ]
+    },
+    "219": {
+      "op": "!",
+      "defined_out": [
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "tmp%6#0"
+      ]
+    },
+    "220": {
+      "error": "can only call when creating",
+      "op": "assert // can only call when creating",
+      "stack_out": []
+    },
+    "221": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%0#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%0#0"
+      ]
+    },
+    "224": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0"
+      ]
+    },
+    "225": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0"
+      ]
+    },
+    "227": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "reinterpret_bytes[8]%0#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "reinterpret_bytes[8]%0#0"
+      ]
+    },
+    "230": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%8#0",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%9#0"
+      ]
+    },
+    "231": {
+      "callsub": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.createApplication",
+      "op": "callsub createApplication",
+      "stack_out": []
+    },
+    "234": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "235": {
+      "op": "return",
+      "stack_out": []
+    },
+    "236": {
+      "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.createApplication",
+      "params": {
+        "admin#0": "bytes",
+        "baseTokenId#0": "uint64"
+      },
+      "block": "createApplication",
+      "stack_in": [],
+      "op": "proto 2 0"
+    },
+    "239": {
+      "op": "bytec_1 // \"admin_account\"",
+      "defined_out": [
+        "\"admin_account\""
+      ],
+      "stack_out": [
+        "\"admin_account\""
+      ]
+    },
+    "240": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "\"admin_account\"",
+        "admin#0 (copy)"
+      ],
+      "stack_out": [
+        "\"admin_account\"",
+        "admin#0 (copy)"
+      ]
+    },
+    "242": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "243": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "244": {
+      "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.initApplication",
+      "params": {
+        "mbrTxn#0": "uint64"
+      },
+      "block": "initApplication",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "247": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "mbrTxn#0 (copy)"
+      ],
+      "stack_out": [
+        "mbrTxn#0 (copy)"
+      ]
+    },
+    "249": {
+      "op": "gtxns Receiver",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "251": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "253": {
+      "op": "==",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "254": {
+      "op": "bz initApplication_bool_false@3",
+      "stack_out": []
+    },
+    "257": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "mbrTxn#0 (copy)"
+      ]
+    },
+    "259": {
+      "op": "gtxns Amount",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "261": {
+      "op": "pushint 400000 // 400000",
+      "defined_out": [
+        "400000",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0",
+        "400000"
+      ]
+    },
+    "265": {
+      "op": "==",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "266": {
+      "op": "bz initApplication_bool_false@3",
+      "stack_out": []
+    },
+    "269": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "and_result%0#0"
+      ],
+      "stack_out": [
+        "and_result%0#0"
+      ]
+    },
+    "270": {
+      "block": "initApplication_bool_merge@4",
+      "stack_in": [
+        "and_result%0#0"
+      ],
+      "error": "assert target is match for conditions",
+      "op": "assert // assert target is match for conditions",
+      "defined_out": [],
+      "stack_out": []
+    },
+    "271": {
+      "op": "bytec_0 // \"ft\"",
+      "defined_out": [
+        "\"ft\""
+      ],
+      "stack_out": [
+        "\"ft\""
+      ]
+    },
+    "272": {
+      "op": "pushint 90 // 90",
+      "defined_out": [
+        "\"ft\"",
+        "90"
+      ],
+      "stack_out": [
+        "\"ft\"",
+        "90"
+      ]
+    },
+    "274": {
+      "op": "box_create",
+      "defined_out": [
+        "{box_create}"
+      ],
+      "stack_out": [
+        "{box_create}"
+      ]
+    },
+    "275": {
+      "op": "pop",
+      "stack_out": []
+    },
+    "276": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "277": {
+      "block": "initApplication_bool_false@3",
+      "stack_in": [],
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "and_result%0#0"
+      ],
+      "stack_out": [
+        "and_result%0#0"
+      ]
+    },
+    "278": {
+      "op": "b initApplication_bool_merge@4"
+    },
+    "281": {
+      "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.addFluxTier",
+      "params": {
+        "tierNumber#0": "uint64",
+        "minRequired#0": "bytes"
+      },
+      "block": "addFluxTier",
+      "stack_in": [],
+      "op": "proto 2 0"
+    },
+    "284": {
+      "op": "bytec_2 // \"\"",
+      "stack_out": [
+        "item_offset%0#0"
+      ]
+    },
+    "285": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "tmp%0#0"
+      ]
+    },
+    "287": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "tmp%0#0",
+        "0"
+      ]
+    },
+    "288": {
+      "op": "bytec_1 // \"admin_account\"",
+      "defined_out": [
+        "\"admin_account\"",
+        "0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "tmp%0#0",
+        "0",
+        "\"admin_account\""
+      ]
+    },
+    "289": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "tmp%0#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "290": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "item_offset%0#0",
+        "tmp%0#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "291": {
+      "op": "==",
+      "defined_out": [
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "292": {
+      "op": "assert",
+      "stack_out": [
+        "item_offset%0#0"
+      ]
+    },
+    "293": {
+      "op": "bytec_0 // \"ft\"",
+      "defined_out": [
+        "\"ft\""
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "\"ft\""
+      ]
+    },
+    "294": {
+      "op": "box_get",
+      "defined_out": [
+        "currentTiers#0",
+        "maybe_exists%1#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "295": {
+      "error": "Box must have value",
+      "op": "assert // Box must have value",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0"
+      ]
+    },
+    "296": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "currentTiers#0",
+        "tierNumber#0 (copy)"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "tierNumber#0 (copy)"
+      ]
+    },
+    "298": {
+      "op": "itob",
+      "defined_out": [
+        "currentTiers#0",
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "val_as_bytes%0#0"
+      ]
+    },
+    "299": {
+      "op": "dup",
+      "defined_out": [
+        "currentTiers#0",
+        "val_as_bytes%0#0",
+        "val_as_bytes%0#0 (copy)"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "val_as_bytes%0#0",
+        "val_as_bytes%0#0 (copy)"
+      ]
+    },
+    "300": {
+      "op": "bitlen",
+      "defined_out": [
+        "bitlen%0#0",
+        "currentTiers#0",
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "val_as_bytes%0#0",
+        "bitlen%0#0"
+      ]
+    },
+    "301": {
+      "op": "intc_3 // 8",
+      "defined_out": [
+        "8",
+        "bitlen%0#0",
+        "currentTiers#0",
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "val_as_bytes%0#0",
+        "bitlen%0#0",
+        "8"
+      ]
+    },
+    "302": {
+      "op": "<=",
+      "defined_out": [
+        "currentTiers#0",
+        "no_overflow%0#0",
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "val_as_bytes%0#0",
+        "no_overflow%0#0"
+      ]
+    },
+    "303": {
+      "error": "overflow",
+      "op": "assert // overflow",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "val_as_bytes%0#0"
+      ]
+    },
+    "304": {
+      "op": "extract 7 1",
+      "defined_out": [
+        "currentTiers#0",
+        "uint8%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "uint8%0#0"
+      ]
+    },
+    "307": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "currentTiers#0",
+        "minRequired#0 (copy)",
+        "uint8%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "uint8%0#0",
+        "minRequired#0 (copy)"
+      ]
+    },
+    "309": {
+      "op": "concat",
+      "defined_out": [
+        "currentTiers#0",
+        "newTier#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0"
+      ]
+    },
+    "310": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "newTier#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0"
+      ]
+    },
+    "311": {
+      "block": "addFluxTier_while_top@1",
+      "stack_in": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0"
+      ],
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "0"
+      ]
+    },
+    "312": {
+      "op": "bytec_3 // \"current_num_tiers\"",
+      "defined_out": [
+        "\"current_num_tiers\"",
+        "0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "0",
+        "\"current_num_tiers\""
+      ]
+    },
+    "313": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%2#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "314": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "maybe_value%2#0"
+      ]
+    },
+    "315": {
+      "op": "frame_dig 3",
+      "defined_out": [
+        "i#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "maybe_value%2#0",
+        "i#0"
+      ]
+    },
+    "317": {
+      "op": ">",
+      "defined_out": [
+        "i#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "tmp%2#0"
+      ]
+    },
+    "318": {
+      "op": "bz addFluxTier_block@7",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0"
+      ]
+    },
+    "321": {
+      "op": "frame_dig 3",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "i#0"
+      ]
+    },
+    "323": {
+      "op": "intc_2 // 9",
+      "defined_out": [
+        "9",
+        "i#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "i#0",
+        "9"
+      ]
+    },
+    "324": {
+      "op": "*",
+      "defined_out": [
+        "i#0",
+        "item_offset%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "item_offset%0#0"
+      ]
+    },
+    "325": {
+      "op": "dup",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "item_offset%0#0",
+        "item_offset%0#0"
+      ]
+    },
+    "326": {
+      "op": "frame_bury 0",
+      "defined_out": [
+        "i#0",
+        "item_offset%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "item_offset%0#0"
+      ]
+    },
+    "328": {
+      "op": "frame_dig 1",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "item_offset%0#0",
+        "currentTiers#0"
+      ]
+    },
+    "330": {
+      "op": "swap",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "currentTiers#0",
+        "item_offset%0#0"
+      ]
+    },
+    "331": {
+      "op": "intc_2 // 9",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "currentTiers#0",
+        "item_offset%0#0",
+        "9"
+      ]
+    },
+    "332": {
+      "error": "Index access is out of bounds",
+      "op": "extract3 // on error: Index access is out of bounds",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "tmp%3#0"
+      ]
+    },
+    "333": {
+      "error": "Index access is out of bounds",
+      "op": "extract 0 1 // on error: Index access is out of bounds",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "tmp%4#0"
+      ]
+    },
+    "336": {
+      "op": "pushbytes 0x00",
+      "defined_out": [
+        "0x00",
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "tmp%4#0",
+        "0x00"
+      ]
+    },
+    "339": {
+      "op": "==",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "tmp%5#0"
+      ]
+    },
+    "340": {
+      "op": "bz addFluxTier_after_if_else@5",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0"
+      ]
+    },
+    "343": {
+      "op": "frame_dig 3",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "i#0"
+      ]
+    },
+    "345": {
+      "op": "pushint 10 // 10",
+      "defined_out": [
+        "10",
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "i#0",
+        "10"
+      ]
+    },
+    "347": {
+      "op": "<",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "index_is_in_bounds%0#0",
+        "item_offset%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "index_is_in_bounds%0#0"
+      ]
+    },
+    "348": {
+      "error": "Index access is out of bounds",
+      "op": "assert // Index access is out of bounds",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0"
+      ]
+    },
+    "349": {
+      "op": "frame_dig 1",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "currentTiers#0"
+      ]
+    },
+    "351": {
+      "op": "frame_dig 0",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "currentTiers#0",
+        "item_offset%0#0"
+      ]
+    },
+    "353": {
+      "op": "frame_dig 2",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "newTier#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "currentTiers#0",
+        "item_offset%0#0",
+        "newTier#0"
+      ]
+    },
+    "355": {
+      "op": "replace3",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "currentTiers#0"
+      ]
+    },
+    "356": {
+      "op": "frame_bury 1",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "newTier#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0"
+      ]
+    },
+    "358": {
+      "block": "addFluxTier_block@7",
+      "stack_in": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0"
+      ],
+      "op": "bytec_0 // \"ft\"",
+      "defined_out": [
+        "\"ft\""
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "\"ft\""
+      ]
+    },
+    "359": {
+      "op": "frame_dig 1",
+      "defined_out": [
+        "\"ft\"",
+        "currentTiers#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "\"ft\"",
+        "currentTiers#0"
+      ]
+    },
+    "361": {
+      "op": "box_put",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0"
+      ]
+    },
+    "362": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "363": {
+      "block": "addFluxTier_after_if_else@5",
+      "stack_in": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0"
+      ],
+      "op": "frame_dig 3",
+      "defined_out": [
+        "i#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "i#0"
+      ]
+    },
+    "365": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1",
+        "i#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "i#0",
+        "1"
+      ]
+    },
+    "366": {
+      "op": "+",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0",
+        "i#0"
+      ]
+    },
+    "367": {
+      "op": "frame_bury 3",
+      "defined_out": [
+        "i#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "newTier#0",
+        "i#0"
+      ]
+    },
+    "369": {
+      "op": "b addFluxTier_while_top@1"
+    },
+    "372": {
+      "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.removeFluxTier",
+      "params": {
+        "tierNumber#0": "uint64"
+      },
+      "block": "removeFluxTier",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "375": {
+      "op": "bytec_2 // \"\"",
+      "stack_out": [
+        "item_offset%0#0"
+      ]
+    },
+    "376": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "tmp%0#0"
+      ]
+    },
+    "378": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "tmp%0#0",
+        "0"
+      ]
+    },
+    "379": {
+      "op": "bytec_1 // \"admin_account\"",
+      "defined_out": [
+        "\"admin_account\"",
+        "0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "tmp%0#0",
+        "0",
+        "\"admin_account\""
+      ]
+    },
+    "380": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "tmp%0#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "381": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "item_offset%0#0",
+        "tmp%0#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "382": {
+      "op": "==",
+      "defined_out": [
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "383": {
+      "op": "assert",
+      "stack_out": [
+        "item_offset%0#0"
+      ]
+    },
+    "384": {
+      "op": "bytec_0 // \"ft\"",
+      "defined_out": [
+        "\"ft\""
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "\"ft\""
+      ]
+    },
+    "385": {
+      "op": "box_get",
+      "defined_out": [
+        "currentTiers#0",
+        "maybe_exists%1#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "386": {
+      "error": "Box must have value",
+      "op": "assert // Box must have value",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0"
+      ]
+    },
+    "387": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0"
+      ]
+    },
+    "388": {
+      "block": "removeFluxTier_while_top@1",
+      "stack_in": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0"
+      ],
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "0"
+      ]
+    },
+    "389": {
+      "op": "bytec_3 // \"current_num_tiers\"",
+      "defined_out": [
+        "\"current_num_tiers\"",
+        "0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "0",
+        "\"current_num_tiers\""
+      ]
+    },
+    "390": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%2#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "391": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "maybe_value%2#0"
+      ]
+    },
+    "392": {
+      "op": "frame_dig 2",
+      "defined_out": [
+        "i#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "maybe_value%2#0",
+        "i#0"
+      ]
+    },
+    "394": {
+      "op": ">",
+      "defined_out": [
+        "i#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "tmp%2#0"
+      ]
+    },
+    "395": {
+      "op": "bz removeFluxTier_block@7",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0"
+      ]
+    },
+    "398": {
+      "op": "frame_dig 2",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "i#0"
+      ]
+    },
+    "400": {
+      "op": "intc_2 // 9",
+      "defined_out": [
+        "9",
+        "i#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "i#0",
+        "9"
+      ]
+    },
+    "401": {
+      "op": "*",
+      "defined_out": [
+        "i#0",
+        "item_offset%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0"
+      ]
+    },
+    "402": {
+      "op": "dup",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "item_offset%0#0"
+      ]
+    },
+    "403": {
+      "op": "frame_bury 0",
+      "defined_out": [
+        "i#0",
+        "item_offset%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0"
+      ]
+    },
+    "405": {
+      "op": "frame_dig 1",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "currentTiers#0"
+      ]
+    },
+    "407": {
+      "op": "swap",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "currentTiers#0",
+        "item_offset%0#0"
+      ]
+    },
+    "408": {
+      "op": "intc_2 // 9",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "currentTiers#0",
+        "item_offset%0#0",
+        "9"
+      ]
+    },
+    "409": {
+      "error": "Index access is out of bounds",
+      "op": "extract3 // on error: Index access is out of bounds",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "tmp%3#0"
+      ]
+    },
+    "410": {
+      "error": "Index access is out of bounds",
+      "op": "extract 0 1 // on error: Index access is out of bounds",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "tmp%4#0"
+      ]
+    },
+    "413": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "tierNumber#0 (copy)",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "tmp%4#0",
+        "tierNumber#0 (copy)"
+      ]
+    },
+    "415": {
+      "op": "itob",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "tmp%4#0",
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "tmp%4#0",
+        "val_as_bytes%0#0"
+      ]
+    },
+    "416": {
+      "op": "dup",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "tmp%4#0",
+        "val_as_bytes%0#0",
+        "val_as_bytes%0#0 (copy)"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "tmp%4#0",
+        "val_as_bytes%0#0",
+        "val_as_bytes%0#0 (copy)"
+      ]
+    },
+    "417": {
+      "op": "bitlen",
+      "defined_out": [
+        "bitlen%0#0",
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "tmp%4#0",
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "tmp%4#0",
+        "val_as_bytes%0#0",
+        "bitlen%0#0"
+      ]
+    },
+    "418": {
+      "op": "intc_3 // 8",
+      "defined_out": [
+        "8",
+        "bitlen%0#0",
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "tmp%4#0",
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "tmp%4#0",
+        "val_as_bytes%0#0",
+        "bitlen%0#0",
+        "8"
+      ]
+    },
+    "419": {
+      "op": "<=",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "no_overflow%0#0",
+        "tmp%4#0",
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "tmp%4#0",
+        "val_as_bytes%0#0",
+        "no_overflow%0#0"
+      ]
+    },
+    "420": {
+      "error": "overflow",
+      "op": "assert // overflow",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "tmp%4#0",
+        "val_as_bytes%0#0"
+      ]
+    },
+    "421": {
+      "op": "extract 7 1",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "tmp%4#0",
+        "uint8%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "tmp%4#0",
+        "uint8%0#0"
+      ]
+    },
+    "424": {
+      "op": "==",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "tmp%5#0"
+      ]
+    },
+    "425": {
+      "op": "bz removeFluxTier_after_if_else@5",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0"
+      ]
+    },
+    "428": {
+      "op": "frame_dig 2",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "i#0"
+      ]
+    },
+    "430": {
+      "op": "pushint 10 // 10",
+      "defined_out": [
+        "10",
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "i#0",
+        "10"
+      ]
+    },
+    "432": {
+      "op": "<",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "index_is_in_bounds%0#0",
+        "item_offset%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "index_is_in_bounds%0#0"
+      ]
+    },
+    "433": {
+      "error": "Index access is out of bounds",
+      "op": "assert // Index access is out of bounds",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0"
+      ]
+    },
+    "434": {
+      "op": "frame_dig 1",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "currentTiers#0"
+      ]
+    },
+    "436": {
+      "op": "frame_dig 0",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "currentTiers#0",
+        "item_offset%0#0"
+      ]
+    },
+    "438": {
+      "op": "pushbytes 0x000000000000000000",
+      "defined_out": [
+        "0x000000000000000000",
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "currentTiers#0",
+        "item_offset%0#0",
+        "0x000000000000000000"
+      ]
+    },
+    "449": {
+      "op": "replace3",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "currentTiers#0"
+      ]
+    },
+    "450": {
+      "op": "frame_bury 1",
+      "defined_out": [
+        "currentTiers#0",
+        "i#0",
+        "item_offset%0#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0"
+      ]
+    },
+    "452": {
+      "block": "removeFluxTier_block@7",
+      "stack_in": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0"
+      ],
+      "op": "bytec_0 // \"ft\"",
+      "defined_out": [
+        "\"ft\""
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "\"ft\""
+      ]
+    },
+    "453": {
+      "op": "frame_dig 1",
+      "defined_out": [
+        "\"ft\"",
+        "currentTiers#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "\"ft\"",
+        "currentTiers#0"
+      ]
+    },
+    "455": {
+      "op": "box_put",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0"
+      ]
+    },
+    "456": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "457": {
+      "block": "removeFluxTier_after_if_else@5",
+      "stack_in": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0"
+      ],
+      "op": "frame_dig 2",
+      "defined_out": [
+        "i#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "i#0"
+      ]
+    },
+    "459": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1",
+        "i#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "i#0",
+        "1"
+      ]
+    },
+    "460": {
+      "op": "+",
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0",
+        "i#0"
+      ]
+    },
+    "461": {
+      "op": "frame_bury 2",
+      "defined_out": [
+        "i#0"
+      ],
+      "stack_out": [
+        "item_offset%0#0",
+        "currentTiers#0",
+        "i#0"
+      ]
+    },
+    "463": {
+      "op": "b removeFluxTier_while_top@1"
+    },
+    "466": {
+      "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.setUserTier",
+      "params": {
+        "user#0": "bytes",
+        "tier#0": "uint64"
+      },
+      "block": "setUserTier",
+      "stack_in": [],
+      "op": "proto 2 0"
+    },
+    "469": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "471": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "0"
+      ]
+    },
+    "472": {
+      "op": "bytec_1 // \"admin_account\"",
+      "defined_out": [
+        "\"admin_account\"",
+        "0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "0",
+        "\"admin_account\""
+      ]
+    },
+    "473": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "474": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "tmp%0#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "475": {
+      "op": "==",
+      "defined_out": [
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%1#0"
+      ]
+    },
+    "476": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "477": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "tier#0 (copy)"
+      ],
+      "stack_out": [
+        "tier#0 (copy)"
+      ]
+    },
+    "479": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0"
+      ]
+    },
+    "480": {
+      "op": "dup",
+      "defined_out": [
+        "val_as_bytes%0#0",
+        "val_as_bytes%0#0 (copy)"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0",
+        "val_as_bytes%0#0 (copy)"
+      ]
+    },
+    "481": {
+      "op": "bitlen",
+      "defined_out": [
+        "bitlen%0#0",
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0",
+        "bitlen%0#0"
+      ]
+    },
+    "482": {
+      "op": "intc_3 // 8",
+      "defined_out": [
+        "8",
+        "bitlen%0#0",
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0",
+        "bitlen%0#0",
+        "8"
+      ]
+    },
+    "483": {
+      "op": "<=",
+      "defined_out": [
+        "no_overflow%0#0",
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0",
+        "no_overflow%0#0"
+      ]
+    },
+    "484": {
+      "error": "overflow",
+      "op": "assert // overflow",
+      "stack_out": [
+        "val_as_bytes%0#0"
+      ]
+    },
+    "485": {
+      "op": "extract 7 1",
+      "defined_out": [
+        "record#0"
+      ],
+      "stack_out": [
+        "record#0"
+      ]
+    },
+    "488": {
+      "op": "bytec 4 // \"flux_record\"",
+      "defined_out": [
+        "\"flux_record\"",
+        "record#0"
+      ],
+      "stack_out": [
+        "record#0",
+        "\"flux_record\""
+      ]
+    },
+    "490": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "\"flux_record\"",
+        "record#0",
+        "user#0 (copy)"
+      ],
+      "stack_out": [
+        "record#0",
+        "\"flux_record\"",
+        "user#0 (copy)"
+      ]
+    },
+    "492": {
+      "op": "concat",
+      "defined_out": [
+        "record#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "record#0",
+        "tmp%2#0"
+      ]
+    },
+    "493": {
+      "op": "swap",
+      "stack_out": [
+        "tmp%2#0",
+        "record#0"
+      ]
+    },
+    "494": {
+      "op": "box_put",
+      "stack_out": []
+    },
+    "495": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "496": {
+      "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.getUserTier",
+      "params": {
+        "user#0": "bytes"
+      },
+      "block": "getUserTier",
+      "stack_in": [],
+      "op": "proto 1 1"
+    },
+    "499": {
+      "op": "bytec 4 // \"flux_record\"",
+      "defined_out": [
+        "\"flux_record\""
+      ],
+      "stack_out": [
+        "\"flux_record\""
+      ]
+    },
+    "501": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "\"flux_record\"",
+        "user#0 (copy)"
+      ],
+      "stack_out": [
+        "\"flux_record\"",
+        "user#0 (copy)"
+      ]
+    },
+    "503": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "504": {
+      "op": "box_get",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "record#0"
+      ],
+      "stack_out": [
+        "record#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "505": {
+      "error": "Box must have value",
+      "op": "assert // Box must have value",
+      "stack_out": [
+        "record#0"
+      ]
+    },
+    "506": {
+      "error": "Index access is out of bounds",
+      "op": "extract 0 1 // on error: Index access is out of bounds",
+      "defined_out": [
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%1#0"
+      ]
+    },
+    "509": {
+      "retsub": true,
+      "op": "retsub"
+    }
+  }
+}
