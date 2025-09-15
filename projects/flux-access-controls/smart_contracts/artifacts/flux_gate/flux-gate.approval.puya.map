@@ -3,7 +3,7 @@
   "sources": [
     "/Users/kierannelson/Development/flux-access-controls/projects/flux-access-controls/smart_contracts/flux_gate/flux-gate.algo.ts"
   ],
-  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAmBA;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;AAAA;;AAqDG;;AAAA;AAAA;AAAA;;AAAA;AArDH;;;AAqDG;;;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;AAVA;;AAAA;AAAA;AAAA;;AAAA;AA3CH;;;AAAA;;;AAAA;AA2CG;;;AAAA;;AATA;;AAAA;AAAA;AAAA;;AAAA;AAlCH;;;AAAA;AAkCG;;;AAAA;;AATA;;AAAA;AAAA;AAAA;;AAAA;AAzBH;;;AAAA;AAAA;;;AAyBG;;;AAAA;;AAPA;;AAAA;AAAA;AAAA;;AAAA;AAlBH;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAkBG;;;AAAA;;AALA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAbH;;;AAAA;AAAA;;AAaG;;;AAAA;;AAAD;;;AAVA;AAYE;;AAAA;;AAGF;;;AAEE;;AAAA;;AAAuC;;AAAvC;AAAA;;;AAAA;;AAAA;;AAA0E;;;;AAA1E;AAAA;;;;AAAA;AAbiD;AAcjD;;AAAA;;AAZF;AAaiC;AAA/B;;;;;;AAGF;;;AAGgB;;AAzBhB;AAAA;AAAA;AAAA;AAyBS;AAAP;AAE2C;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAA3B;;AAAA;AAvBiC;AAwBjC;AAAA;AAAhB;;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;;AAAA;AAxBiD;AAwBjD;AAAA;AAtBF;AAAA;AAAA;AAAA;AAuBkC;AAAhC;AAvBF;AAuBE;AAAA;;AAEF;;;AAGgB;;AAlChB;AAAA;AAAA;AAAA;AAkCS;AAAP;AA9BiD;AAgCjC;AAAA;AAAhB;;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAoC;;;;;;;;;;;AAApC;AAhCiD;AAgCjD;AAAA;AA9BF;AAAA;AAAA;AAAA;AA+BkC;AAAhC;AA/BF;AA+BE;AAAA;;AAGF;;;AAGgB;;AA3ChB;AAAA;AAAA;AAAA;AA2CS;AAAP;AAGsC;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AA5CsB;AAAA;;AAAA;AA6C5D;AAAA;;AAGF;;;AAhD8D;AAAA;;AAAA;AAmDhB;AAAA;AAC9B;;;AAAd",
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAmBA;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;AAAA;;AAqDG;;AAAA;AAAA;AAAA;;AAAA;AArDH;;;AAqDG;;;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;AAVA;;AAAA;AAAA;AAAA;;AAAA;AA3CH;;;AAAA;;;AAAA;AA2CG;;;AAAA;;AATA;;AAAA;AAAA;AAAA;;AAAA;AAlCH;;;AAAA;AAkCG;;;AAAA;;AATA;;AAAA;AAAA;AAAA;;AAAA;AAzBH;;;AAAA;AAAA;;;AAyBG;;;AAAA;;AAPA;;AAAA;AAAA;AAAA;;AAAA;AAlBH;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAkBG;;;AAAA;;AALA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAbH;;;AAAA;AAAA;;AAaG;;;AAAA;;AAAD;;;AAVA;AAYE;;AAAA;;AAGF;;;AAEE;;AAAA;;AAAuC;;AAAvC;AAAA;;;AAAA;;AAAA;;AAA0E;;;;AAA1E;AAAA;;;;AAAA;AAbiD;AAcjD;;AAAA;;AAZF;AAaiC;AAA/B;;;;;;AAGF;;;AAGgB;;AAzBhB;AAAA;AAAA;AAAA;AAyBS;AAAP;AAE2C;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAA3B;;AAAA;AAvBiC;AAwBjC;AAAA;AAAhB;;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;;AAAA;AAxBiD;AAwBjD;AAAA;AAtBF;AAAA;AAAA;AAAA;AAuBkC;AAAhC;AAvBF;AAuBE;AAAA;;AAEF;;;AAGgB;;AAlChB;AAAA;AAAA;AAAA;AAkCS;AAAP;AA9BiD;AAgCjC;AAAA;AAAhB;;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAoC;;;;;;;;;;;AAApC;AAhCiD;AAgCjD;AAAA;AA9BF;AAAA;AAAA;AAAA;AA+BkC;AAAhC;AA/BF;AA+BE;AAAA;;AAGF;;;AAMwC;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AA5CsB;AAAA;;AAAA;AA6C5D;AAAA;;AAGF;;;AAhD8D;AAAA;;AAAA;AAmDhB;AAAA;AAC9B;;;AAAd",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -1597,73 +1597,6 @@
       "op": "proto 2 0"
     },
     "385": {
-      "op": "txn Sender",
-      "defined_out": [
-        "tmp%0#0"
-      ],
-      "stack_out": [
-        "tmp%0#0"
-      ]
-    },
-    "387": {
-      "op": "intc_1 // 0",
-      "defined_out": [
-        "0",
-        "tmp%0#0"
-      ],
-      "stack_out": [
-        "tmp%0#0",
-        "0"
-      ]
-    },
-    "388": {
-      "op": "bytec_2 // \"admin_account\"",
-      "defined_out": [
-        "\"admin_account\"",
-        "0",
-        "tmp%0#0"
-      ],
-      "stack_out": [
-        "tmp%0#0",
-        "0",
-        "\"admin_account\""
-      ]
-    },
-    "389": {
-      "op": "app_global_get_ex",
-      "defined_out": [
-        "maybe_exists%0#0",
-        "maybe_value%0#0",
-        "tmp%0#0"
-      ],
-      "stack_out": [
-        "tmp%0#0",
-        "maybe_value%0#0",
-        "maybe_exists%0#0"
-      ]
-    },
-    "390": {
-      "error": "check GlobalState exists",
-      "op": "assert // check GlobalState exists",
-      "stack_out": [
-        "tmp%0#0",
-        "maybe_value%0#0"
-      ]
-    },
-    "391": {
-      "op": "==",
-      "defined_out": [
-        "tmp%1#0"
-      ],
-      "stack_out": [
-        "tmp%1#0"
-      ]
-    },
-    "392": {
-      "op": "assert",
-      "stack_out": []
-    },
-    "393": {
       "op": "frame_dig -1",
       "defined_out": [
         "tier#0 (copy)"
@@ -1672,7 +1605,7 @@
         "tier#0 (copy)"
       ]
     },
-    "395": {
+    "387": {
       "op": "itob",
       "defined_out": [
         "val_as_bytes%0#0"
@@ -1681,7 +1614,7 @@
         "val_as_bytes%0#0"
       ]
     },
-    "396": {
+    "388": {
       "op": "dup",
       "defined_out": [
         "val_as_bytes%0#0",
@@ -1692,7 +1625,7 @@
         "val_as_bytes%0#0 (copy)"
       ]
     },
-    "397": {
+    "389": {
       "op": "bitlen",
       "defined_out": [
         "bitlen%0#0",
@@ -1703,7 +1636,7 @@
         "bitlen%0#0"
       ]
     },
-    "398": {
+    "390": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -1716,7 +1649,7 @@
         "8"
       ]
     },
-    "399": {
+    "391": {
       "op": "<=",
       "defined_out": [
         "no_overflow%0#0",
@@ -1727,14 +1660,14 @@
         "no_overflow%0#0"
       ]
     },
-    "400": {
+    "392": {
       "error": "overflow",
       "op": "assert // overflow",
       "stack_out": [
         "val_as_bytes%0#0"
       ]
     },
-    "401": {
+    "393": {
       "op": "extract 7 1",
       "defined_out": [
         "record#0"
@@ -1743,7 +1676,7 @@
         "record#0"
       ]
     },
-    "404": {
+    "396": {
       "op": "bytec_3 // \"flux_record\"",
       "defined_out": [
         "\"flux_record\"",
@@ -1754,7 +1687,7 @@
         "\"flux_record\""
       ]
     },
-    "405": {
+    "397": {
       "op": "frame_dig -2",
       "defined_out": [
         "\"flux_record\"",
@@ -1767,33 +1700,33 @@
         "user#0 (copy)"
       ]
     },
-    "407": {
+    "399": {
       "op": "concat",
       "defined_out": [
         "record#0",
-        "tmp%2#0"
+        "tmp%0#0"
       ],
       "stack_out": [
         "record#0",
-        "tmp%2#0"
+        "tmp%0#0"
       ]
     },
-    "408": {
+    "400": {
       "op": "swap",
       "stack_out": [
-        "tmp%2#0",
+        "tmp%0#0",
         "record#0"
       ]
     },
-    "409": {
+    "401": {
       "op": "box_put",
       "stack_out": []
     },
-    "410": {
+    "402": {
       "retsub": true,
       "op": "retsub"
     },
-    "411": {
+    "403": {
       "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.getUserTier",
       "params": {
         "user#0": "bytes"
@@ -1802,7 +1735,7 @@
       "stack_in": [],
       "op": "proto 1 1"
     },
-    "414": {
+    "406": {
       "op": "bytec_3 // \"flux_record\"",
       "defined_out": [
         "\"flux_record\""
@@ -1811,7 +1744,7 @@
         "\"flux_record\""
       ]
     },
-    "415": {
+    "407": {
       "op": "frame_dig -1",
       "defined_out": [
         "\"flux_record\"",
@@ -1822,7 +1755,7 @@
         "user#0 (copy)"
       ]
     },
-    "417": {
+    "409": {
       "op": "concat",
       "defined_out": [
         "tmp%0#0"
@@ -1831,7 +1764,7 @@
         "tmp%0#0"
       ]
     },
-    "418": {
+    "410": {
       "op": "box_get",
       "defined_out": [
         "maybe_exists%0#0",
@@ -1842,14 +1775,14 @@
         "maybe_exists%0#0"
       ]
     },
-    "419": {
+    "411": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
         "record#0"
       ]
     },
-    "420": {
+    "412": {
       "error": "Index access is out of bounds",
       "op": "extract 0 1 // on error: Index access is out of bounds",
       "defined_out": [
@@ -1859,7 +1792,7 @@
         "tmp%1#0"
       ]
     },
-    "423": {
+    "415": {
       "retsub": true,
       "op": "retsub"
     }
