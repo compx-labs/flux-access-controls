@@ -31,7 +31,7 @@ export class FluxGate extends Contract {
   // Methods
 
   @abimethod({ allowActions: "NoOp", onCreate: "require" })
-  public createApplication(admin: Account, baseTokenId: uint64): void {
+  public createApplication(admin: Account): void {
     this.admin_account.value = admin;
   }
 
@@ -39,6 +39,7 @@ export class FluxGate extends Contract {
   public initApplication(mbrTxn: gtxn.PaymentTxn): void {
     assertMatch(mbrTxn, { receiver: Global.currentApplicationAddress, amount: 400_000 });
     this.flux_tiers.create();
+    this.current_num_tiers.value = 0;
   }
 
   @abimethod({ allowActions: "NoOp" })
@@ -46,35 +47,17 @@ export class FluxGate extends Contract {
     //only admin can call
     assert(op.Txn.sender === this.admin_account.value);
 
-    const currentTiers = this.flux_tiers.value.copy();
     const newTier = new FluxTier({ tierNumber: new UintN8(tierNumber), minRequired });
-    let tierAdded = false;
-    for (var i:uint64 = 0; i < this.current_num_tiers.value; i++) {
-      if (currentTiers[i].tierNumber === new UintN8(0) && !tierAdded) {
-        // empty slot
-        currentTiers[i] = newTier.copy();
-        tierAdded = true;
-        break;
-      }
-    }
-    this.flux_tiers.value = currentTiers.copy();
+    this.flux_tiers.value[tierNumber] = newTier.copy();
+    this.current_num_tiers.value += 1;
   }
   @abimethod({ allowActions: "NoOp" })
   removeFluxTier(tierNumber: uint64): void {
     //only admin can call
     assert(op.Txn.sender === this.admin_account.value);
 
-    const currentTiers = this.flux_tiers.value.copy();
-    let tierRemoved = false;
-    for (var i:uint64 = 0; i < this.current_num_tiers.value; i++) {
-      if (currentTiers[i].tierNumber === new UintN8(tierNumber) && !tierRemoved) {
-        // empty slot
-        currentTiers[i] = new FluxTier({ tierNumber: new UintN8(0), minRequired: new UintN64(0) });
-        tierRemoved = true;
-        break;
-      }
-    }
-    this.flux_tiers.value = currentTiers.copy();
+    this.flux_tiers.value[tierNumber] = new FluxTier({ tierNumber: new UintN8(0), minRequired: new UintN64(0) }).copy();
+    this.current_num_tiers.value -= 1;
   }
 
   @abimethod({ allowActions: "NoOp" })

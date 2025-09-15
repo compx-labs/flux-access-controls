@@ -3,14 +3,14 @@
 
 // @algorandfoundation/algorand-typescript/arc4/index.d.ts::Contract.approvalProgram() -> uint64:
 main:
-    intcblock 1 0 9 8
-    bytecblock "ft" "admin_account" "" "current_num_tiers" "flux_record"
+    intcblock 1 0 8 10
+    bytecblock "ft" "current_num_tiers" "admin_account" "flux_record"
     // smart_contracts/flux_gate/flux-gate.algo.ts:20-21
     // @contract({ name: "flux-gate", avmVersion: 11 })
     // export class FluxGate extends Contract {
     txn NumAppArgs
     bz main_after_if_else@12
-    pushbytess 0x3b01665e 0xf927a9f6 0x5b47b18e 0x6c8a0318 0xa07d00cf 0x1d96b637 // method "createApplication(account,uint64)void", method "initApplication(pay)void", method "addFluxTier(uint64,uint64)void", method "removeFluxTier(uint64)void", method "setUserTier(address,uint64)void", method "getUserTier(address)uint8"
+    pushbytess 0xda53fefe 0xf927a9f6 0x5b47b18e 0x6c8a0318 0xa07d00cf 0x1d96b637 // method "createApplication(account)void", method "initApplication(pay)void", method "addFluxTier(uint64,uint64)void", method "removeFluxTier(uint64)void", method "setUserTier(address,uint64)void", method "getUserTier(address)uint8"
     txna ApplicationArgs 0
     match main_createApplication_route@3 main_initApplication_route@4 main_addFluxTier_route@5 main_removeFluxTier_route@6 main_setUserTier_route@7 main_getUserTier_route@8
 
@@ -22,7 +22,7 @@ main_after_if_else@12:
     return
 
 main_getUserTier_route@8:
-    // smart_contracts/flux_gate/flux-gate.algo.ts:90
+    // smart_contracts/flux_gate/flux-gate.algo.ts:73
     // @abimethod({ allowActions: "NoOp" })
     txn OnCompletion
     !
@@ -33,7 +33,7 @@ main_getUserTier_route@8:
     // @contract({ name: "flux-gate", avmVersion: 11 })
     // export class FluxGate extends Contract {
     txna ApplicationArgs 1
-    // smart_contracts/flux_gate/flux-gate.algo.ts:90
+    // smart_contracts/flux_gate/flux-gate.algo.ts:73
     // @abimethod({ allowActions: "NoOp" })
     callsub getUserTier
     pushbytes 0x151f7c75
@@ -44,7 +44,7 @@ main_getUserTier_route@8:
     return
 
 main_setUserTier_route@7:
-    // smart_contracts/flux_gate/flux-gate.algo.ts:80
+    // smart_contracts/flux_gate/flux-gate.algo.ts:63
     // @abimethod({ allowActions: "NoOp" })
     txn OnCompletion
     !
@@ -57,14 +57,14 @@ main_setUserTier_route@7:
     txna ApplicationArgs 1
     txna ApplicationArgs 2
     btoi
-    // smart_contracts/flux_gate/flux-gate.algo.ts:80
+    // smart_contracts/flux_gate/flux-gate.algo.ts:63
     // @abimethod({ allowActions: "NoOp" })
     callsub setUserTier
     intc_0 // 1
     return
 
 main_removeFluxTier_route@6:
-    // smart_contracts/flux_gate/flux-gate.algo.ts:62
+    // smart_contracts/flux_gate/flux-gate.algo.ts:54
     // @abimethod({ allowActions: "NoOp" })
     txn OnCompletion
     !
@@ -76,14 +76,14 @@ main_removeFluxTier_route@6:
     // export class FluxGate extends Contract {
     txna ApplicationArgs 1
     btoi
-    // smart_contracts/flux_gate/flux-gate.algo.ts:62
+    // smart_contracts/flux_gate/flux-gate.algo.ts:54
     // @abimethod({ allowActions: "NoOp" })
     callsub removeFluxTier
     intc_0 // 1
     return
 
 main_addFluxTier_route@5:
-    // smart_contracts/flux_gate/flux-gate.algo.ts:44
+    // smart_contracts/flux_gate/flux-gate.algo.ts:45
     // @abimethod({ allowActions: "NoOp" })
     txn OnCompletion
     !
@@ -96,7 +96,7 @@ main_addFluxTier_route@5:
     txna ApplicationArgs 1
     btoi
     txna ApplicationArgs 2
-    // smart_contracts/flux_gate/flux-gate.algo.ts:44
+    // smart_contracts/flux_gate/flux-gate.algo.ts:45
     // @abimethod({ allowActions: "NoOp" })
     callsub addFluxTier
     intc_0 // 1
@@ -142,8 +142,6 @@ main_createApplication_route@3:
     txna ApplicationArgs 1
     btoi
     txnas Accounts
-    txna ApplicationArgs 2
-    btoi
     // smart_contracts/flux_gate/flux-gate.algo.ts:33
     // @abimethod({ allowActions: "NoOp", onCreate: "require" })
     callsub createApplication
@@ -151,18 +149,18 @@ main_createApplication_route@3:
     return
 
 
-// smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.createApplication(admin: bytes, baseTokenId: uint64) -> void:
+// smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.createApplication(admin: bytes) -> void:
 createApplication:
     // smart_contracts/flux_gate/flux-gate.algo.ts:33-34
     // @abimethod({ allowActions: "NoOp", onCreate: "require" })
-    // public createApplication(admin: Account, baseTokenId: uint64): void {
-    proto 2 0
+    // public createApplication(admin: Account): void {
+    proto 1 0
     // smart_contracts/flux_gate/flux-gate.algo.ts:23
     // admin_account = GlobalState<Account>();
-    bytec_1 // "admin_account"
+    bytec_2 // "admin_account"
     // smart_contracts/flux_gate/flux-gate.algo.ts:35
     // this.admin_account.value = admin;
-    frame_dig -2
+    frame_dig -1
     app_global_put
     retsub
 
@@ -199,6 +197,13 @@ initApplication_bool_merge@4:
     pushint 90 // 90
     box_create
     pop
+    // smart_contracts/flux_gate/flux-gate.algo.ts:29
+    // current_num_tiers = GlobalState<uint64>();
+    bytec_1 // "current_num_tiers"
+    // smart_contracts/flux_gate/flux-gate.algo.ts:42
+    // this.current_num_tiers.value = 0;
+    intc_1 // 0
+    app_global_put
     retsub
 
 initApplication_bool_false@3:
@@ -208,238 +213,175 @@ initApplication_bool_false@3:
 
 // smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.addFluxTier(tierNumber: uint64, minRequired: bytes) -> void:
 addFluxTier:
-    // smart_contracts/flux_gate/flux-gate.algo.ts:44-45
+    // smart_contracts/flux_gate/flux-gate.algo.ts:45-46
     // @abimethod({ allowActions: "NoOp" })
     // public addFluxTier(tierNumber: uint64, minRequired: UintN64): void {
     proto 2 0
-    bytec_2 // ""
-    // smart_contracts/flux_gate/flux-gate.algo.ts:47
+    // smart_contracts/flux_gate/flux-gate.algo.ts:48
     // assert(op.Txn.sender === this.admin_account.value);
     txn Sender
     // smart_contracts/flux_gate/flux-gate.algo.ts:23
     // admin_account = GlobalState<Account>();
     intc_1 // 0
-    bytec_1 // "admin_account"
+    bytec_2 // "admin_account"
     app_global_get_ex
     assert // check GlobalState exists
-    // smart_contracts/flux_gate/flux-gate.algo.ts:47
+    // smart_contracts/flux_gate/flux-gate.algo.ts:48
     // assert(op.Txn.sender === this.admin_account.value);
     ==
     assert
-    // smart_contracts/flux_gate/flux-gate.algo.ts:27
-    // flux_tiers = Box<StaticArray<FluxTier, 10>>({ key: "ft" });
-    bytec_0 // "ft"
-    // smart_contracts/flux_gate/flux-gate.algo.ts:49
-    // const currentTiers = this.flux_tiers.value.copy();
-    box_get
-    assert // Box must have value
     // smart_contracts/flux_gate/flux-gate.algo.ts:50
     // const newTier = new FluxTier({ tierNumber: new UintN8(tierNumber), minRequired });
     frame_dig -2
     itob
     dup
     bitlen
-    intc_3 // 8
+    intc_2 // 8
     <=
     assert // overflow
     extract 7 1
     frame_dig -1
     concat
-    // smart_contracts/flux_gate/flux-gate.algo.ts:52
-    // for (var i:uint64 = 0; i < this.current_num_tiers.value; i++) {
-    intc_1 // 0
-
-addFluxTier_while_top@1:
-    // smart_contracts/flux_gate/flux-gate.algo.ts:29
-    // current_num_tiers = GlobalState<uint64>();
-    intc_1 // 0
-    bytec_3 // "current_num_tiers"
-    app_global_get_ex
-    assert // check GlobalState exists
-    // smart_contracts/flux_gate/flux-gate.algo.ts:52
-    // for (var i:uint64 = 0; i < this.current_num_tiers.value; i++) {
-    frame_dig 3
-    >
-    bz addFluxTier_block@7
-    // smart_contracts/flux_gate/flux-gate.algo.ts:53
-    // if (currentTiers[i].tierNumber === new UintN8(0) && !tierAdded) {
-    frame_dig 3
-    intc_2 // 9
-    *
-    dup
-    frame_bury 0
-    frame_dig 1
-    swap
-    intc_2 // 9
-    extract3 // on error: Index access is out of bounds
-    extract 0 1 // on error: Index access is out of bounds
-    pushbytes 0x00
-    ==
-    bz addFluxTier_after_if_else@5
-    // smart_contracts/flux_gate/flux-gate.algo.ts:55
-    // currentTiers[i] = newTier.copy();
-    frame_dig 3
-    pushint 10 // 10
-    <
-    assert // Index access is out of bounds
-    frame_dig 1
-    frame_dig 0
-    frame_dig 2
-    replace3
-    frame_bury 1
-
-addFluxTier_block@7:
     // smart_contracts/flux_gate/flux-gate.algo.ts:27
     // flux_tiers = Box<StaticArray<FluxTier, 10>>({ key: "ft" });
     bytec_0 // "ft"
-    // smart_contracts/flux_gate/flux-gate.algo.ts:60
-    // this.flux_tiers.value = currentTiers.copy();
-    frame_dig 1
+    // smart_contracts/flux_gate/flux-gate.algo.ts:51
+    // this.flux_tiers.value[tierNumber] = newTier.copy();
+    box_get
+    assert // Box must have value
+    frame_dig -2
+    intc_3 // 10
+    <
+    assert // Index access is out of bounds
+    frame_dig -2
+    pushint 9 // 9
+    *
+    uncover 2
+    replace3
+    // smart_contracts/flux_gate/flux-gate.algo.ts:27
+    // flux_tiers = Box<StaticArray<FluxTier, 10>>({ key: "ft" });
+    bytec_0 // "ft"
+    // smart_contracts/flux_gate/flux-gate.algo.ts:51
+    // this.flux_tiers.value[tierNumber] = newTier.copy();
+    swap
     box_put
-    retsub
-
-addFluxTier_after_if_else@5:
+    // smart_contracts/flux_gate/flux-gate.algo.ts:29
+    // current_num_tiers = GlobalState<uint64>();
+    intc_1 // 0
+    bytec_1 // "current_num_tiers"
+    app_global_get_ex
+    assert // check GlobalState exists
     // smart_contracts/flux_gate/flux-gate.algo.ts:52
-    // for (var i:uint64 = 0; i < this.current_num_tiers.value; i++) {
-    frame_dig 3
+    // this.current_num_tiers.value += 1;
     intc_0 // 1
     +
-    frame_bury 3
-    b addFluxTier_while_top@1
+    // smart_contracts/flux_gate/flux-gate.algo.ts:29
+    // current_num_tiers = GlobalState<uint64>();
+    bytec_1 // "current_num_tiers"
+    // smart_contracts/flux_gate/flux-gate.algo.ts:52
+    // this.current_num_tiers.value += 1;
+    swap
+    app_global_put
+    retsub
 
 
 // smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.removeFluxTier(tierNumber: uint64) -> void:
 removeFluxTier:
-    // smart_contracts/flux_gate/flux-gate.algo.ts:62-63
+    // smart_contracts/flux_gate/flux-gate.algo.ts:54-55
     // @abimethod({ allowActions: "NoOp" })
     // removeFluxTier(tierNumber: uint64): void {
     proto 1 0
-    bytec_2 // ""
-    // smart_contracts/flux_gate/flux-gate.algo.ts:65
+    // smart_contracts/flux_gate/flux-gate.algo.ts:57
     // assert(op.Txn.sender === this.admin_account.value);
     txn Sender
     // smart_contracts/flux_gate/flux-gate.algo.ts:23
     // admin_account = GlobalState<Account>();
     intc_1 // 0
-    bytec_1 // "admin_account"
+    bytec_2 // "admin_account"
     app_global_get_ex
     assert // check GlobalState exists
-    // smart_contracts/flux_gate/flux-gate.algo.ts:65
+    // smart_contracts/flux_gate/flux-gate.algo.ts:57
     // assert(op.Txn.sender === this.admin_account.value);
     ==
     assert
     // smart_contracts/flux_gate/flux-gate.algo.ts:27
     // flux_tiers = Box<StaticArray<FluxTier, 10>>({ key: "ft" });
     bytec_0 // "ft"
-    // smart_contracts/flux_gate/flux-gate.algo.ts:67
-    // const currentTiers = this.flux_tiers.value.copy();
+    // smart_contracts/flux_gate/flux-gate.algo.ts:59
+    // this.flux_tiers.value[tierNumber] = new FluxTier({ tierNumber: new UintN8(0), minRequired: new UintN64(0) }).copy();
     box_get
     assert // Box must have value
-    // smart_contracts/flux_gate/flux-gate.algo.ts:69
-    // for (var i:uint64 = 0; i < this.current_num_tiers.value; i++) {
-    intc_1 // 0
-
-removeFluxTier_while_top@1:
-    // smart_contracts/flux_gate/flux-gate.algo.ts:29
-    // current_num_tiers = GlobalState<uint64>();
-    intc_1 // 0
-    bytec_3 // "current_num_tiers"
-    app_global_get_ex
-    assert // check GlobalState exists
-    // smart_contracts/flux_gate/flux-gate.algo.ts:69
-    // for (var i:uint64 = 0; i < this.current_num_tiers.value; i++) {
-    frame_dig 2
-    >
-    bz removeFluxTier_block@7
-    // smart_contracts/flux_gate/flux-gate.algo.ts:70
-    // if (currentTiers[i].tierNumber === new UintN8(tierNumber) && !tierRemoved) {
-    frame_dig 2
-    intc_2 // 9
-    *
-    dup
-    frame_bury 0
-    frame_dig 1
-    swap
-    intc_2 // 9
-    extract3 // on error: Index access is out of bounds
-    extract 0 1 // on error: Index access is out of bounds
     frame_dig -1
-    itob
-    dup
-    bitlen
-    intc_3 // 8
-    <=
-    assert // overflow
-    extract 7 1
-    ==
-    bz removeFluxTier_after_if_else@5
-    // smart_contracts/flux_gate/flux-gate.algo.ts:72
-    // currentTiers[i] = new FluxTier({ tierNumber: new UintN8(0), minRequired: new UintN64(0) });
-    frame_dig 2
-    pushint 10 // 10
+    intc_3 // 10
     <
     assert // Index access is out of bounds
-    frame_dig 1
-    frame_dig 0
+    frame_dig -1
+    pushint 9 // 9
+    *
     pushbytes 0x000000000000000000
     replace3
-    frame_bury 1
-
-removeFluxTier_block@7:
     // smart_contracts/flux_gate/flux-gate.algo.ts:27
     // flux_tiers = Box<StaticArray<FluxTier, 10>>({ key: "ft" });
     bytec_0 // "ft"
-    // smart_contracts/flux_gate/flux-gate.algo.ts:77
-    // this.flux_tiers.value = currentTiers.copy();
-    frame_dig 1
+    // smart_contracts/flux_gate/flux-gate.algo.ts:59
+    // this.flux_tiers.value[tierNumber] = new FluxTier({ tierNumber: new UintN8(0), minRequired: new UintN64(0) }).copy();
+    swap
     box_put
-    retsub
-
-removeFluxTier_after_if_else@5:
-    // smart_contracts/flux_gate/flux-gate.algo.ts:69
-    // for (var i:uint64 = 0; i < this.current_num_tiers.value; i++) {
-    frame_dig 2
+    // smart_contracts/flux_gate/flux-gate.algo.ts:29
+    // current_num_tiers = GlobalState<uint64>();
+    intc_1 // 0
+    bytec_1 // "current_num_tiers"
+    app_global_get_ex
+    assert // check GlobalState exists
+    // smart_contracts/flux_gate/flux-gate.algo.ts:60
+    // this.current_num_tiers.value -= 1;
     intc_0 // 1
-    +
-    frame_bury 2
-    b removeFluxTier_while_top@1
+    -
+    // smart_contracts/flux_gate/flux-gate.algo.ts:29
+    // current_num_tiers = GlobalState<uint64>();
+    bytec_1 // "current_num_tiers"
+    // smart_contracts/flux_gate/flux-gate.algo.ts:60
+    // this.current_num_tiers.value -= 1;
+    swap
+    app_global_put
+    retsub
 
 
 // smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.setUserTier(user: bytes, tier: uint64) -> void:
 setUserTier:
-    // smart_contracts/flux_gate/flux-gate.algo.ts:80-81
+    // smart_contracts/flux_gate/flux-gate.algo.ts:63-64
     // @abimethod({ allowActions: "NoOp" })
     // public setUserTier(user: Address, tier: uint64): void {
     proto 2 0
-    // smart_contracts/flux_gate/flux-gate.algo.ts:83
+    // smart_contracts/flux_gate/flux-gate.algo.ts:66
     // assert(op.Txn.sender === this.admin_account.value);
     txn Sender
     // smart_contracts/flux_gate/flux-gate.algo.ts:23
     // admin_account = GlobalState<Account>();
     intc_1 // 0
-    bytec_1 // "admin_account"
+    bytec_2 // "admin_account"
     app_global_get_ex
     assert // check GlobalState exists
-    // smart_contracts/flux_gate/flux-gate.algo.ts:83
+    // smart_contracts/flux_gate/flux-gate.algo.ts:66
     // assert(op.Txn.sender === this.admin_account.value);
     ==
     assert
-    // smart_contracts/flux_gate/flux-gate.algo.ts:86
+    // smart_contracts/flux_gate/flux-gate.algo.ts:69
     // const record = new FluxRecord({ tier: new UintN8(tier) });
     frame_dig -1
     itob
     dup
     bitlen
-    intc_3 // 8
+    intc_2 // 8
     <=
     assert // overflow
     extract 7 1
     // smart_contracts/flux_gate/flux-gate.algo.ts:25
     // flux_records = BoxMap<FluxRecordKey, FluxRecord>({ keyPrefix: "flux_record" });
-    bytec 4 // "flux_record"
+    bytec_3 // "flux_record"
     frame_dig -2
     concat
-    // smart_contracts/flux_gate/flux-gate.algo.ts:87
+    // smart_contracts/flux_gate/flux-gate.algo.ts:70
     // this.flux_records(recordKey).value = record.copy();
     swap
     box_put
@@ -448,20 +390,20 @@ setUserTier:
 
 // smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.getUserTier(user: bytes) -> bytes:
 getUserTier:
-    // smart_contracts/flux_gate/flux-gate.algo.ts:90-91
+    // smart_contracts/flux_gate/flux-gate.algo.ts:73-74
     // @abimethod({ allowActions: "NoOp" })
     // public getUserTier(user: Address): UintN8 {
     proto 1 1
     // smart_contracts/flux_gate/flux-gate.algo.ts:25
     // flux_records = BoxMap<FluxRecordKey, FluxRecord>({ keyPrefix: "flux_record" });
-    bytec 4 // "flux_record"
+    bytec_3 // "flux_record"
     frame_dig -1
     concat
-    // smart_contracts/flux_gate/flux-gate.algo.ts:93
+    // smart_contracts/flux_gate/flux-gate.algo.ts:76
     // const record = this.flux_records(recordKey).value.copy();
     box_get
     assert // Box must have value
-    // smart_contracts/flux_gate/flux-gate.algo.ts:94
+    // smart_contracts/flux_gate/flux-gate.algo.ts:77
     // return record.tier;
     extract 0 1 // on error: Index access is out of bounds
     retsub
