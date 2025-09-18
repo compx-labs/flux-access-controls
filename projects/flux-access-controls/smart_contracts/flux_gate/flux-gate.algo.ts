@@ -47,7 +47,7 @@ export class FluxGate extends Contract {
     //only admin can call
     assert(op.Txn.sender === this.admin_account.value);
 
-    const newTier = new FluxTier({ tierNumber: new UintN8(tierNumber), minRequired });
+    const newTier = new FluxTier({ tierNumber: new UintN64(tierNumber), minRequired });
     this.flux_tiers.value[tierNumber] = newTier.copy();
     this.current_num_tiers.value += 1;
   }
@@ -56,7 +56,7 @@ export class FluxGate extends Contract {
     //only admin can call
     assert(op.Txn.sender === this.admin_account.value);
 
-    this.flux_tiers.value[tierNumber] = new FluxTier({ tierNumber: new UintN8(0), minRequired: new UintN64(0) }).copy();
+    this.flux_tiers.value[tierNumber] = new FluxTier({ tierNumber: new UintN64(0), minRequired: new UintN64(0) }).copy();
     this.current_num_tiers.value -= 1;
   }
 
@@ -66,14 +66,17 @@ export class FluxGate extends Contract {
     //assert(op.Txn.sender === this.admin_account.value);
 
     const recordKey = new FluxRecordKey({ userAddress: user });
-    const record = new FluxRecord({ tier: new UintN8(tier) });
+    const record = new FluxRecord({ tier: new UintN64(tier) });
     this.flux_records(recordKey).value = record.copy();
   }
 
   @abimethod({ allowActions: "NoOp" })
-  public getUserTier(user: Address): UintN8 {
+  public getUserTier(user: Address): UintN64 {
     const recordKey = new FluxRecordKey({ userAddress: user });
-    const record = this.flux_records(recordKey).value.copy();
-    return record.tier;
+    if (!this.flux_records(recordKey).exists) {
+      const record = this.flux_records(recordKey).value.copy();
+      return record.tier;
+    }
+    return new UintN64(0);
   }
 }

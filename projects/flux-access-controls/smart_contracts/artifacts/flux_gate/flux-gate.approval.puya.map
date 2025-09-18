@@ -3,7 +3,7 @@
   "sources": [
     "/Users/kierannelson/Development/flux-access-controls/projects/flux-access-controls/smart_contracts/flux_gate/flux-gate.algo.ts"
   ],
-  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAmBA;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;AAAA;;AAqDG;;AAAA;AAAA;AAAA;;AAAA;AArDH;;;AAqDG;;;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;AAVA;;AAAA;AAAA;AAAA;;AAAA;AA3CH;;;AAAA;;;AAAA;AA2CG;;;AAAA;;AATA;;AAAA;AAAA;AAAA;;AAAA;AAlCH;;;AAAA;AAkCG;;;AAAA;;AATA;;AAAA;AAAA;AAAA;;AAAA;AAzBH;;;AAAA;AAAA;;;AAyBG;;;AAAA;;AAPA;;AAAA;AAAA;AAAA;;AAAA;AAlBH;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAkBG;;;AAAA;;AALA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAbH;;;AAAA;AAAA;;AAaG;;;AAAA;;AAAD;;;AAVA;AAYE;;AAAA;;AAGF;;;AAEE;;AAAA;;AAAuC;;AAAvC;AAAA;;;AAAA;;AAAA;;AAA0E;;;;AAA1E;AAAA;;;;AAAA;AAbiD;AAcjD;;AAAA;;AAZF;AAaiC;AAA/B;;;;;;AAGF;;;AAGgB;;AAzBhB;AAAA;AAAA;AAAA;AAyBS;AAAP;AAE2C;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAA3B;;AAAA;AAvBiC;AAwBjC;AAAA;AAAhB;;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;;AAAA;AAxBiD;AAwBjD;AAAA;AAtBF;AAAA;AAAA;AAAA;AAuBkC;AAAhC;AAvBF;AAuBE;AAAA;;AAEF;;;AAGgB;;AAlChB;AAAA;AAAA;AAAA;AAkCS;AAAP;AA9BiD;AAgCjC;AAAA;AAAhB;;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAoC;;;;;;;;;;;AAApC;AAhCiD;AAgCjD;AAAA;AA9BF;AAAA;AAAA;AAAA;AA+BkC;AAAhC;AA/BF;AA+BE;AAAA;;AAGF;;;AAMwC;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AA5CsB;AAAA;;AAAA;AA6C5D;AAAA;;AAGF;;;AAhD8D;AAAA;;AAAA;AAmDhB;AAAA;AAC9B;;;AAAd",
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAmBA;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;AAAA;;AAqDG;;AAAA;AAAA;AAAA;;AAAA;AArDH;;;AAqDG;;;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;AAVA;;AAAA;AAAA;AAAA;;AAAA;AA3CH;;;AAAA;;;AAAA;AA2CG;;;AAAA;;AATA;;AAAA;AAAA;AAAA;;AAAA;AAlCH;;;AAAA;AAkCG;;;AAAA;;AATA;;AAAA;AAAA;AAAA;;AAAA;AAzBH;;;AAAA;AAAA;;;AAyBG;;;AAAA;;AAPA;;AAAA;AAAA;AAAA;;AAAA;AAlBH;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAkBG;;;AAAA;;AALA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAbH;;;AAAA;AAAA;;AAaG;;;AAAA;;AAAD;;;AAVA;AAYE;;AAAA;;AAGF;;;AAEE;;AAAA;;AAAuC;;AAAvC;AAAA;;;AAAA;;AAAA;;AAA0E;;;;AAA1E;AAAA;;;;AAAA;AAbiD;AAcjD;;;AAAA;;AAZF;AAaiC;AAA/B;;;;;;AAGF;;;AAGgB;;AAzBhB;AAAA;AAAA;AAAA;AAyBS;AAAP;AAE2C;;AAAA;AAA3B;;AAAA;AAvBiC;AAwBjC;AAAA;AAAhB;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAxBiD;AAwBjD;AAAA;AAtBF;AAAA;AAAA;AAAA;AAuBkC;AAAhC;AAvBF;AAuBE;AAAA;;AAEF;;;AAGgB;;AAlChB;AAAA;AAAA;AAAA;AAkCS;AAAP;AA9BiD;AAgCjC;AAAA;AAAhB;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAoC;;;;;;;;;;;;;;;;;;AAApC;AAhCiD;AAgCjD;AAAA;AA9BF;AAAA;AAAA;AAAA;AA+BkC;AAAhC;AA/BF;AA+BE;AAAA;;AAGF;;;AAMwC;;AAAA;AA5CsB;AAAA;;AAAA;AA6C5D;AAAA;;AAGF;;;AAhD8D;AAAA;;AAAA;AAAA;AAmD1B;AAAA;;AAA9B;;;AAC0C;;AAAA;AAAA;AAC9B;;;AAAd;AAAA;AAEK;;;;;;;;;;AAAP;AAAA",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -11,7 +11,7 @@
       "params": {},
       "block": "main",
       "stack_in": [],
-      "op": "intcblock 1 0 8 10"
+      "op": "intcblock 1 0 10 16"
     },
     "7": {
       "op": "bytecblock \"ft\" \"current_num_tiers\" \"admin_account\" \"flux_record\""
@@ -30,11 +30,11 @@
       "stack_out": []
     },
     "61": {
-      "op": "pushbytess 0xda53fefe 0xf927a9f6 0x5b47b18e 0x6c8a0318 0xa07d00cf 0x1d96b637 // method \"createApplication(account)void\", method \"initApplication(pay)void\", method \"addFluxTier(uint64,uint64)void\", method \"removeFluxTier(uint64)void\", method \"setUserTier(address,uint64)void\", method \"getUserTier(address)uint8\"",
+      "op": "pushbytess 0xda53fefe 0xf927a9f6 0x5b47b18e 0x6c8a0318 0xa07d00cf 0xd4d7aa5c // method \"createApplication(account)void\", method \"initApplication(pay)void\", method \"addFluxTier(uint64,uint64)void\", method \"removeFluxTier(uint64)void\", method \"setUserTier(address,uint64)void\", method \"getUserTier(address)uint64\"",
       "defined_out": [
         "Method(addFluxTier(uint64,uint64)void)",
         "Method(createApplication(account)void)",
-        "Method(getUserTier(address)uint8)",
+        "Method(getUserTier(address)uint64)",
         "Method(initApplication(pay)void)",
         "Method(removeFluxTier(uint64)void)",
         "Method(setUserTier(address,uint64)void)"
@@ -45,7 +45,7 @@
         "Method(addFluxTier(uint64,uint64)void)",
         "Method(removeFluxTier(uint64)void)",
         "Method(setUserTier(address,uint64)void)",
-        "Method(getUserTier(address)uint8)"
+        "Method(getUserTier(address)uint64)"
       ]
     },
     "93": {
@@ -53,7 +53,7 @@
       "defined_out": [
         "Method(addFluxTier(uint64,uint64)void)",
         "Method(createApplication(account)void)",
-        "Method(getUserTier(address)uint8)",
+        "Method(getUserTier(address)uint64)",
         "Method(initApplication(pay)void)",
         "Method(removeFluxTier(uint64)void)",
         "Method(setUserTier(address,uint64)void)",
@@ -65,7 +65,7 @@
         "Method(addFluxTier(uint64,uint64)void)",
         "Method(removeFluxTier(uint64)void)",
         "Method(setUserTier(address,uint64)void)",
-        "Method(getUserTier(address)uint8)",
+        "Method(getUserTier(address)uint64)",
         "tmp%2#0"
       ]
     },
@@ -827,17 +827,17 @@
       ]
     },
     "267": {
-      "op": "pushint 90 // 90",
+      "op": "pushint 160 // 160",
       "defined_out": [
         "\"ft\"",
-        "90"
+        "160"
       ],
       "stack_out": [
         "\"ft\"",
-        "90"
+        "160"
       ]
     },
-    "269": {
+    "270": {
       "op": "box_create",
       "defined_out": [
         "{box_create}"
@@ -846,11 +846,11 @@
         "{box_create}"
       ]
     },
-    "270": {
+    "271": {
       "op": "pop",
       "stack_out": []
     },
-    "271": {
+    "272": {
       "op": "bytec_1 // \"current_num_tiers\"",
       "defined_out": [
         "\"current_num_tiers\""
@@ -859,7 +859,7 @@
         "\"current_num_tiers\""
       ]
     },
-    "272": {
+    "273": {
       "op": "intc_1 // 0",
       "defined_out": [
         "\"current_num_tiers\"",
@@ -870,15 +870,15 @@
         "0"
       ]
     },
-    "273": {
+    "274": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "274": {
+    "275": {
       "retsub": true,
       "op": "retsub"
     },
-    "275": {
+    "276": {
       "block": "initApplication_bool_false@3",
       "stack_in": [],
       "op": "intc_1 // 0",
@@ -889,10 +889,10 @@
         "and_result%0#0"
       ]
     },
-    "276": {
+    "277": {
       "op": "b initApplication_bool_merge@4"
     },
-    "279": {
+    "280": {
       "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.addFluxTier",
       "params": {
         "tierNumber#0": "uint64",
@@ -902,7 +902,7 @@
       "stack_in": [],
       "op": "proto 2 0"
     },
-    "282": {
+    "283": {
       "op": "txn Sender",
       "defined_out": [
         "tmp%0#0"
@@ -911,7 +911,7 @@
         "tmp%0#0"
       ]
     },
-    "284": {
+    "285": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0",
@@ -922,7 +922,7 @@
         "0"
       ]
     },
-    "285": {
+    "286": {
       "op": "bytec_2 // \"admin_account\"",
       "defined_out": [
         "\"admin_account\"",
@@ -935,7 +935,7 @@
         "\"admin_account\""
       ]
     },
-    "286": {
+    "287": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -948,7 +948,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "287": {
+    "288": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
@@ -956,7 +956,7 @@
         "maybe_value%0#0"
       ]
     },
-    "288": {
+    "289": {
       "op": "==",
       "defined_out": [
         "tmp%1#0"
@@ -965,11 +965,11 @@
         "tmp%1#0"
       ]
     },
-    "289": {
+    "290": {
       "op": "assert",
       "stack_out": []
     },
-    "290": {
+    "291": {
       "op": "frame_dig -2",
       "defined_out": [
         "tierNumber#0 (copy)"
@@ -978,7 +978,7 @@
         "tierNumber#0 (copy)"
       ]
     },
-    "292": {
+    "293": {
       "op": "itob",
       "defined_out": [
         "val_as_bytes%0#0"
@@ -987,80 +987,18 @@
         "val_as_bytes%0#0"
       ]
     },
-    "293": {
-      "op": "dup",
-      "defined_out": [
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#0 (copy)"
-      ],
-      "stack_out": [
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#0 (copy)"
-      ]
-    },
     "294": {
-      "op": "bitlen",
-      "defined_out": [
-        "bitlen%0#0",
-        "val_as_bytes%0#0"
-      ],
-      "stack_out": [
-        "val_as_bytes%0#0",
-        "bitlen%0#0"
-      ]
-    },
-    "295": {
-      "op": "intc_2 // 8",
-      "defined_out": [
-        "8",
-        "bitlen%0#0",
-        "val_as_bytes%0#0"
-      ],
-      "stack_out": [
-        "val_as_bytes%0#0",
-        "bitlen%0#0",
-        "8"
-      ]
-    },
-    "296": {
-      "op": "<=",
-      "defined_out": [
-        "no_overflow%0#0",
-        "val_as_bytes%0#0"
-      ],
-      "stack_out": [
-        "val_as_bytes%0#0",
-        "no_overflow%0#0"
-      ]
-    },
-    "297": {
-      "error": "overflow",
-      "op": "assert // overflow",
-      "stack_out": [
-        "val_as_bytes%0#0"
-      ]
-    },
-    "298": {
-      "op": "extract 7 1",
-      "defined_out": [
-        "uint8%0#0"
-      ],
-      "stack_out": [
-        "uint8%0#0"
-      ]
-    },
-    "301": {
       "op": "frame_dig -1",
       "defined_out": [
         "minRequired#0 (copy)",
-        "uint8%0#0"
+        "val_as_bytes%0#0"
       ],
       "stack_out": [
-        "uint8%0#0",
+        "val_as_bytes%0#0",
         "minRequired#0 (copy)"
       ]
     },
-    "303": {
+    "296": {
       "op": "concat",
       "defined_out": [
         "newTier#0"
@@ -1069,7 +1007,7 @@
         "newTier#0"
       ]
     },
-    "304": {
+    "297": {
       "op": "bytec_0 // \"ft\"",
       "defined_out": [
         "\"ft\"",
@@ -1080,7 +1018,7 @@
         "\"ft\""
       ]
     },
-    "305": {
+    "298": {
       "op": "box_get",
       "defined_out": [
         "maybe_exists%1#0",
@@ -1093,7 +1031,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "306": {
+    "299": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
@@ -1101,7 +1039,7 @@
         "maybe_value%1#0"
       ]
     },
-    "307": {
+    "300": {
       "op": "frame_dig -2",
       "stack_out": [
         "newTier#0",
@@ -1109,8 +1047,8 @@
         "tierNumber#0 (copy)"
       ]
     },
-    "309": {
-      "op": "intc_3 // 10",
+    "302": {
+      "op": "intc_2 // 10",
       "defined_out": [
         "10",
         "maybe_value%1#0",
@@ -1124,7 +1062,7 @@
         "10"
       ]
     },
-    "310": {
+    "303": {
       "op": "<",
       "defined_out": [
         "index_is_in_bounds%0#0",
@@ -1137,7 +1075,7 @@
         "index_is_in_bounds%0#0"
       ]
     },
-    "311": {
+    "304": {
       "error": "Index access is out of bounds",
       "op": "assert // Index access is out of bounds",
       "stack_out": [
@@ -1145,7 +1083,7 @@
         "maybe_value%1#0"
       ]
     },
-    "312": {
+    "305": {
       "op": "frame_dig -2",
       "stack_out": [
         "newTier#0",
@@ -1153,10 +1091,10 @@
         "tierNumber#0 (copy)"
       ]
     },
-    "314": {
-      "op": "pushint 9 // 9",
+    "307": {
+      "op": "intc_3 // 16",
       "defined_out": [
-        "9",
+        "16",
         "maybe_value%1#0",
         "newTier#0",
         "tierNumber#0 (copy)"
@@ -1165,10 +1103,10 @@
         "newTier#0",
         "maybe_value%1#0",
         "tierNumber#0 (copy)",
-        "9"
+        "16"
       ]
     },
-    "316": {
+    "308": {
       "op": "*",
       "defined_out": [
         "maybe_value%1#0",
@@ -1181,7 +1119,7 @@
         "write_offset%0#0"
       ]
     },
-    "317": {
+    "309": {
       "op": "uncover 2",
       "stack_out": [
         "maybe_value%1#0",
@@ -1189,7 +1127,7 @@
         "newTier#0"
       ]
     },
-    "319": {
+    "311": {
       "op": "replace3",
       "defined_out": [
         "updated_target%0#0"
@@ -1198,31 +1136,31 @@
         "updated_target%0#0"
       ]
     },
-    "320": {
+    "312": {
       "op": "bytec_0 // \"ft\"",
       "stack_out": [
         "updated_target%0#0",
         "\"ft\""
       ]
     },
-    "321": {
+    "313": {
       "op": "swap",
       "stack_out": [
         "\"ft\"",
         "updated_target%0#0"
       ]
     },
-    "322": {
+    "314": {
       "op": "box_put",
       "stack_out": []
     },
-    "323": {
+    "315": {
       "op": "intc_1 // 0",
       "stack_out": [
         "0"
       ]
     },
-    "324": {
+    "316": {
       "op": "bytec_1 // \"current_num_tiers\"",
       "defined_out": [
         "\"current_num_tiers\"",
@@ -1233,7 +1171,7 @@
         "\"current_num_tiers\""
       ]
     },
-    "325": {
+    "317": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%2#0",
@@ -1244,14 +1182,14 @@
         "maybe_exists%2#0"
       ]
     },
-    "326": {
+    "318": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
         "maybe_value%2#0"
       ]
     },
-    "327": {
+    "319": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -1262,7 +1200,7 @@
         "1"
       ]
     },
-    "328": {
+    "320": {
       "op": "+",
       "defined_out": [
         "new_state_value%0#0"
@@ -1271,29 +1209,29 @@
         "new_state_value%0#0"
       ]
     },
-    "329": {
+    "321": {
       "op": "bytec_1 // \"current_num_tiers\"",
       "stack_out": [
         "new_state_value%0#0",
         "\"current_num_tiers\""
       ]
     },
-    "330": {
+    "322": {
       "op": "swap",
       "stack_out": [
         "\"current_num_tiers\"",
         "new_state_value%0#0"
       ]
     },
-    "331": {
+    "323": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "332": {
+    "324": {
       "retsub": true,
       "op": "retsub"
     },
-    "333": {
+    "325": {
       "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.removeFluxTier",
       "params": {
         "tierNumber#0": "uint64"
@@ -1302,7 +1240,7 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "336": {
+    "328": {
       "op": "txn Sender",
       "defined_out": [
         "tmp%0#0"
@@ -1311,7 +1249,7 @@
         "tmp%0#0"
       ]
     },
-    "338": {
+    "330": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0",
@@ -1322,7 +1260,7 @@
         "0"
       ]
     },
-    "339": {
+    "331": {
       "op": "bytec_2 // \"admin_account\"",
       "defined_out": [
         "\"admin_account\"",
@@ -1335,7 +1273,7 @@
         "\"admin_account\""
       ]
     },
-    "340": {
+    "332": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -1348,7 +1286,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "341": {
+    "333": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
@@ -1356,7 +1294,7 @@
         "maybe_value%0#0"
       ]
     },
-    "342": {
+    "334": {
       "op": "==",
       "defined_out": [
         "tmp%1#0"
@@ -1365,11 +1303,11 @@
         "tmp%1#0"
       ]
     },
-    "343": {
+    "335": {
       "op": "assert",
       "stack_out": []
     },
-    "344": {
+    "336": {
       "op": "bytec_0 // \"ft\"",
       "defined_out": [
         "\"ft\""
@@ -1378,7 +1316,7 @@
         "\"ft\""
       ]
     },
-    "345": {
+    "337": {
       "op": "box_get",
       "defined_out": [
         "maybe_exists%1#0",
@@ -1389,14 +1327,14 @@
         "maybe_exists%1#0"
       ]
     },
-    "346": {
+    "338": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
         "maybe_value%1#0"
       ]
     },
-    "347": {
+    "339": {
       "op": "frame_dig -1",
       "defined_out": [
         "maybe_value%1#0",
@@ -1407,8 +1345,8 @@
         "tierNumber#0 (copy)"
       ]
     },
-    "349": {
-      "op": "intc_3 // 10",
+    "341": {
+      "op": "intc_2 // 10",
       "defined_out": [
         "10",
         "maybe_value%1#0",
@@ -1420,7 +1358,7 @@
         "10"
       ]
     },
-    "350": {
+    "342": {
       "op": "<",
       "defined_out": [
         "index_is_in_bounds%0#0",
@@ -1431,34 +1369,34 @@
         "index_is_in_bounds%0#0"
       ]
     },
-    "351": {
+    "343": {
       "error": "Index access is out of bounds",
       "op": "assert // Index access is out of bounds",
       "stack_out": [
         "maybe_value%1#0"
       ]
     },
-    "352": {
+    "344": {
       "op": "frame_dig -1",
       "stack_out": [
         "maybe_value%1#0",
         "tierNumber#0 (copy)"
       ]
     },
-    "354": {
-      "op": "pushint 9 // 9",
+    "346": {
+      "op": "intc_3 // 16",
       "defined_out": [
-        "9",
+        "16",
         "maybe_value%1#0",
         "tierNumber#0 (copy)"
       ],
       "stack_out": [
         "maybe_value%1#0",
         "tierNumber#0 (copy)",
-        "9"
+        "16"
       ]
     },
-    "356": {
+    "347": {
       "op": "*",
       "defined_out": [
         "maybe_value%1#0",
@@ -1469,20 +1407,20 @@
         "write_offset%0#0"
       ]
     },
-    "357": {
-      "op": "pushbytes 0x000000000000000000",
+    "348": {
+      "op": "pushbytes 0x00000000000000000000000000000000",
       "defined_out": [
-        "0x000000000000000000",
+        "0x00000000000000000000000000000000",
         "maybe_value%1#0",
         "write_offset%0#0"
       ],
       "stack_out": [
         "maybe_value%1#0",
         "write_offset%0#0",
-        "0x000000000000000000"
+        "0x00000000000000000000000000000000"
       ]
     },
-    "368": {
+    "366": {
       "op": "replace3",
       "defined_out": [
         "updated_target%0#0"
@@ -1491,31 +1429,31 @@
         "updated_target%0#0"
       ]
     },
-    "369": {
+    "367": {
       "op": "bytec_0 // \"ft\"",
       "stack_out": [
         "updated_target%0#0",
         "\"ft\""
       ]
     },
-    "370": {
+    "368": {
       "op": "swap",
       "stack_out": [
         "\"ft\"",
         "updated_target%0#0"
       ]
     },
-    "371": {
+    "369": {
       "op": "box_put",
       "stack_out": []
     },
-    "372": {
+    "370": {
       "op": "intc_1 // 0",
       "stack_out": [
         "0"
       ]
     },
-    "373": {
+    "371": {
       "op": "bytec_1 // \"current_num_tiers\"",
       "defined_out": [
         "\"current_num_tiers\"",
@@ -1526,7 +1464,7 @@
         "\"current_num_tiers\""
       ]
     },
-    "374": {
+    "372": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%2#0",
@@ -1537,14 +1475,14 @@
         "maybe_exists%2#0"
       ]
     },
-    "375": {
+    "373": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
         "maybe_value%2#0"
       ]
     },
-    "376": {
+    "374": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -1555,7 +1493,7 @@
         "1"
       ]
     },
-    "377": {
+    "375": {
       "op": "-",
       "defined_out": [
         "new_state_value%0#0"
@@ -1564,29 +1502,29 @@
         "new_state_value%0#0"
       ]
     },
-    "378": {
+    "376": {
       "op": "bytec_1 // \"current_num_tiers\"",
       "stack_out": [
         "new_state_value%0#0",
         "\"current_num_tiers\""
       ]
     },
-    "379": {
+    "377": {
       "op": "swap",
       "stack_out": [
         "\"current_num_tiers\"",
         "new_state_value%0#0"
       ]
     },
-    "380": {
+    "378": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "381": {
+    "379": {
       "retsub": true,
       "op": "retsub"
     },
-    "382": {
+    "380": {
       "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.setUserTier",
       "params": {
         "user#0": "bytes",
@@ -1596,7 +1534,7 @@
       "stack_in": [],
       "op": "proto 2 0"
     },
-    "385": {
+    "383": {
       "op": "frame_dig -1",
       "defined_out": [
         "tier#0 (copy)"
@@ -1605,78 +1543,16 @@
         "tier#0 (copy)"
       ]
     },
-    "387": {
+    "385": {
       "op": "itob",
       "defined_out": [
-        "val_as_bytes%0#0"
-      ],
-      "stack_out": [
-        "val_as_bytes%0#0"
-      ]
-    },
-    "388": {
-      "op": "dup",
-      "defined_out": [
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#0 (copy)"
-      ],
-      "stack_out": [
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#0 (copy)"
-      ]
-    },
-    "389": {
-      "op": "bitlen",
-      "defined_out": [
-        "bitlen%0#0",
-        "val_as_bytes%0#0"
-      ],
-      "stack_out": [
-        "val_as_bytes%0#0",
-        "bitlen%0#0"
-      ]
-    },
-    "390": {
-      "op": "intc_2 // 8",
-      "defined_out": [
-        "8",
-        "bitlen%0#0",
-        "val_as_bytes%0#0"
-      ],
-      "stack_out": [
-        "val_as_bytes%0#0",
-        "bitlen%0#0",
-        "8"
-      ]
-    },
-    "391": {
-      "op": "<=",
-      "defined_out": [
-        "no_overflow%0#0",
-        "val_as_bytes%0#0"
-      ],
-      "stack_out": [
-        "val_as_bytes%0#0",
-        "no_overflow%0#0"
-      ]
-    },
-    "392": {
-      "error": "overflow",
-      "op": "assert // overflow",
-      "stack_out": [
-        "val_as_bytes%0#0"
-      ]
-    },
-    "393": {
-      "op": "extract 7 1",
-      "defined_out": [
         "record#0"
       ],
       "stack_out": [
         "record#0"
       ]
     },
-    "396": {
+    "386": {
       "op": "bytec_3 // \"flux_record\"",
       "defined_out": [
         "\"flux_record\"",
@@ -1687,7 +1563,7 @@
         "\"flux_record\""
       ]
     },
-    "397": {
+    "387": {
       "op": "frame_dig -2",
       "defined_out": [
         "\"flux_record\"",
@@ -1700,7 +1576,7 @@
         "user#0 (copy)"
       ]
     },
-    "399": {
+    "389": {
       "op": "concat",
       "defined_out": [
         "record#0",
@@ -1711,22 +1587,22 @@
         "tmp%0#0"
       ]
     },
-    "400": {
+    "390": {
       "op": "swap",
       "stack_out": [
         "tmp%0#0",
         "record#0"
       ]
     },
-    "401": {
+    "391": {
       "op": "box_put",
       "stack_out": []
     },
-    "402": {
+    "392": {
       "retsub": true,
       "op": "retsub"
     },
-    "403": {
+    "393": {
       "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.getUserTier",
       "params": {
         "user#0": "bytes"
@@ -1735,7 +1611,7 @@
       "stack_in": [],
       "op": "proto 1 1"
     },
-    "406": {
+    "396": {
       "op": "bytec_3 // \"flux_record\"",
       "defined_out": [
         "\"flux_record\""
@@ -1744,7 +1620,7 @@
         "\"flux_record\""
       ]
     },
-    "407": {
+    "397": {
       "op": "frame_dig -1",
       "defined_out": [
         "\"flux_record\"",
@@ -1755,7 +1631,7 @@
         "user#0 (copy)"
       ]
     },
-    "409": {
+    "399": {
       "op": "concat",
       "defined_out": [
         "tmp%0#0"
@@ -1764,35 +1640,107 @@
         "tmp%0#0"
       ]
     },
-    "410": {
-      "op": "box_get",
+    "400": {
+      "op": "dup",
       "defined_out": [
-        "maybe_exists%0#0",
-        "record#0"
+        "tmp%0#0"
       ],
       "stack_out": [
-        "record#0",
+        "tmp%0#0",
+        "tmp%0#0"
+      ]
+    },
+    "401": {
+      "op": "box_len",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "maybe_value%0#0",
         "maybe_exists%0#0"
       ]
     },
-    "411": {
+    "402": {
+      "op": "bury 1",
+      "stack_out": [
+        "tmp%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "404": {
+      "op": "bnz getUserTier_after_if_else@2",
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "407": {
+      "op": "frame_dig 0",
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%0#0"
+      ]
+    },
+    "409": {
+      "op": "box_get",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "record#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "record#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "410": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
+        "tmp%0#0",
         "record#0"
       ]
     },
-    "412": {
+    "411": {
       "error": "Index access is out of bounds",
-      "op": "extract 0 1 // on error: Index access is out of bounds",
+      "op": "extract 0 8 // on error: Index access is out of bounds",
       "defined_out": [
-        "tmp%1#0"
+        "tmp%0#0",
+        "tmp%2#0"
       ],
       "stack_out": [
-        "tmp%1#0"
+        "tmp%0#0",
+        "tmp%2#0"
       ]
     },
+    "414": {
+      "op": "swap"
+    },
     "415": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "416": {
+      "block": "getUserTier_after_if_else@2",
+      "stack_in": [
+        "tmp%0#0"
+      ],
+      "op": "pushbytes 0x0000000000000000",
+      "defined_out": [
+        "0x0000000000000000"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "0x0000000000000000"
+      ]
+    },
+    "426": {
+      "op": "swap"
+    },
+    "427": {
       "retsub": true,
       "op": "retsub"
     }

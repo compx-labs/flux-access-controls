@@ -80,4 +80,5 @@ describe("flux-gate Testing - config", () => {
     const result = await appClient.send.getUserTier({ args: [managerAccount.addr.toString()] });
     console.log('user tier', result.return);
   });
+
 });
