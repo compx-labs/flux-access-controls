@@ -63,7 +63,7 @@ export class FluxGate extends Contract {
   @abimethod({ allowActions: "NoOp" })
   public setUserTier(user: Address, tier: uint64): void {
     //only admin can call
-    //assert(op.Txn.sender === this.admin_account.value);
+    assert(op.Txn.sender === this.admin_account.value);
 
     const recordKey = new FluxRecordKey({ userAddress: user });
     const record = new FluxRecord({ tier: new UintN64(tier) });
