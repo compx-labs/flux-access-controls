@@ -73,10 +73,15 @@ export class FluxGate extends Contract {
   @abimethod({ allowActions: "NoOp" })
   public getUserTier(user: Address): UintN64 {
     const recordKey = new FluxRecordKey({ userAddress: user });
-    if (!this.flux_records(recordKey).exists) {
+    if (this.flux_records(recordKey).exists) {
       const record = this.flux_records(recordKey).value.copy();
       return record.tier;
+    } else {
+      // Create new record with tier 0
+      const newRecord = new FluxRecord({ tier: new UintN64(0) }).copy();
+      this.flux_records(recordKey).value = newRecord.copy();
+      return newRecord.tier;
     }
-    return new UintN64(0);
+
   }
 }

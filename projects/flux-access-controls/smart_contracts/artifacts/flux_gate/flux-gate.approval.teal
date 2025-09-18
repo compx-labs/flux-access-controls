@@ -4,7 +4,7 @@
 // @algorandfoundation/algorand-typescript/arc4/index.d.ts::Contract.approvalProgram() -> uint64:
 main:
     intcblock 1 0 10 16
-    bytecblock "ft" "current_num_tiers" "admin_account" "flux_record"
+    bytecblock "ft" "current_num_tiers" "admin_account" "flux_record" 0x0000000000000000
     // smart_contracts/flux_gate/flux-gate.algo.ts:20-21
     // @contract({ name: "flux-gate", avmVersion: 11 })
     // export class FluxGate extends Contract {
@@ -376,24 +376,27 @@ getUserTier:
     concat
     dup
     // smart_contracts/flux_gate/flux-gate.algo.ts:76
-    // if (!this.flux_records(recordKey).exists) {
+    // if (this.flux_records(recordKey).exists) {
     box_len
     bury 1
-    bnz getUserTier_after_if_else@2
+    bz getUserTier_else_body@2
     // smart_contracts/flux_gate/flux-gate.algo.ts:77
     // const record = this.flux_records(recordKey).value.copy();
-    frame_dig 0
     box_get
     assert // Box must have value
     // smart_contracts/flux_gate/flux-gate.algo.ts:78
     // return record.tier;
     extract 0 8 // on error: Index access is out of bounds
-    swap
     retsub
 
-getUserTier_after_if_else@2:
-    // smart_contracts/flux_gate/flux-gate.algo.ts:80
-    // return new UintN64(0);
-    pushbytes 0x0000000000000000
-    swap
+getUserTier_else_body@2:
+    // smart_contracts/flux_gate/flux-gate.algo.ts:81
+    // const newRecord = new FluxRecord({ tier: new UintN64(0) }).copy();
+    bytec 4 // 0x0000000000000000
+    // smart_contracts/flux_gate/flux-gate.algo.ts:82
+    // this.flux_records(recordKey).value = newRecord.copy();
+    box_put
+    // smart_contracts/flux_gate/flux-gate.algo.ts:83
+    // return newRecord.tier;
+    bytec 4 // 0x0000000000000000
     retsub

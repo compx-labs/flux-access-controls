@@ -3,7 +3,7 @@
   "sources": [
     "/Users/kierannelson/Development/flux-access-controls/projects/flux-access-controls/smart_contracts/flux_gate/flux-gate.algo.ts"
   ],
-  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAmBA;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;AAAA;;AAqDG;;AAAA;AAAA;AAAA;;AAAA;AArDH;;;AAqDG;;;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;AAVA;;AAAA;AAAA;AAAA;;AAAA;AA3CH;;;AAAA;;;AAAA;AA2CG;;;AAAA;;AATA;;AAAA;AAAA;AAAA;;AAAA;AAlCH;;;AAAA;AAkCG;;;AAAA;;AATA;;AAAA;AAAA;AAAA;;AAAA;AAzBH;;;AAAA;AAAA;;;AAyBG;;;AAAA;;AAPA;;AAAA;AAAA;AAAA;;AAAA;AAlBH;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAkBG;;;AAAA;;AALA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAbH;;;AAAA;AAAA;;AAaG;;;AAAA;;AAAD;;;AAVA;AAYE;;AAAA;;AAGF;;;AAEE;;AAAA;;AAAuC;;AAAvC;AAAA;;;AAAA;;AAAA;;AAA0E;;;;AAA1E;AAAA;;;;AAAA;AAbiD;AAcjD;;;AAAA;;AAZF;AAaiC;AAA/B;;;;;;AAGF;;;AAGgB;;AAzBhB;AAAA;AAAA;AAAA;AAyBS;AAAP;AAE2C;;AAAA;AAA3B;;AAAA;AAvBiC;AAwBjC;AAAA;AAAhB;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAxBiD;AAwBjD;AAAA;AAtBF;AAAA;AAAA;AAAA;AAuBkC;AAAhC;AAvBF;AAuBE;AAAA;;AAEF;;;AAGgB;;AAlChB;AAAA;AAAA;AAAA;AAkCS;AAAP;AA9BiD;AAgCjC;AAAA;AAAhB;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAoC;;;;;;;;;;;;;;;;;;AAApC;AAhCiD;AAgCjD;AAAA;AA9BF;AAAA;AAAA;AAAA;AA+BkC;AAAhC;AA/BF;AA+BE;AAAA;;AAGF;;;AAMwC;;AAAA;AA5CsB;AAAA;;AAAA;AA6C5D;AAAA;;AAGF;;;AAhD8D;AAAA;;AAAA;AAAA;AAmD1B;AAAA;;AAA9B;;;AAC0C;;AAAA;AAAA;AAC9B;;;AAAd;AAAA;AAEK;;;;;;;;;;AAAP;AAAA",
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAmBA;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;AAAA;;AAqDG;;AAAA;AAAA;AAAA;;AAAA;AArDH;;;AAqDG;;;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;AAVA;;AAAA;AAAA;AAAA;;AAAA;AA3CH;;;AAAA;;;AAAA;AA2CG;;;AAAA;;AATA;;AAAA;AAAA;AAAA;;AAAA;AAlCH;;;AAAA;AAkCG;;;AAAA;;AATA;;AAAA;AAAA;AAAA;;AAAA;AAzBH;;;AAAA;AAAA;;;AAyBG;;;AAAA;;AAPA;;AAAA;AAAA;AAAA;;AAAA;AAlBH;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAkBG;;;AAAA;;AALA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAbH;;;AAAA;AAAA;;AAaG;;;AAAA;;AAAD;;;AAVA;AAYE;;AAAA;;AAGF;;;AAEE;;AAAA;;AAAuC;;AAAvC;AAAA;;;AAAA;;AAAA;;AAA0E;;;;AAA1E;AAAA;;;;AAAA;AAbiD;AAcjD;;;AAAA;;AAZF;AAaiC;AAA/B;;;;;;AAGF;;;AAGgB;;AAzBhB;AAAA;AAAA;AAAA;AAyBS;AAAP;AAE2C;;AAAA;AAA3B;;AAAA;AAvBiC;AAwBjC;AAAA;AAAhB;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAxBiD;AAwBjD;AAAA;AAtBF;AAAA;AAAA;AAAA;AAuBkC;AAAhC;AAvBF;AAuBE;AAAA;;AAEF;;;AAGgB;;AAlChB;AAAA;AAAA;AAAA;AAkCS;AAAP;AA9BiD;AAgCjC;AAAA;AAAhB;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAoC;;;;;;;;;;;;;;;;;;AAApC;AAhCiD;AAgCjD;AAAA;AA9BF;AAAA;AAAA;AAAA;AA+BkC;AAAhC;AA/BF;AA+BE;AAAA;;AAGF;;;AAMwC;;AAAA;AA5CsB;AAAA;;AAAA;AA6C5D;AAAA;;AAGF;;;AAhD8D;AAAA;;AAAA;AAAA;AAmD3B;AAAA;;AAAjC;;;AAC8C;AAAA;AAC9B;;;AAAd;AAGyC;;AACzC;AACiB;;AAAjB",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -14,9 +14,9 @@
       "op": "intcblock 1 0 10 16"
     },
     "7": {
-      "op": "bytecblock \"ft\" \"current_num_tiers\" \"admin_account\" \"flux_record\""
+      "op": "bytecblock \"ft\" \"current_num_tiers\" \"admin_account\" \"flux_record\" 0x0000000000000000"
     },
-    "56": {
+    "65": {
       "op": "txn NumAppArgs",
       "defined_out": [
         "tmp%0#1"
@@ -25,11 +25,11 @@
         "tmp%0#1"
       ]
     },
-    "58": {
+    "67": {
       "op": "bz main_after_if_else@12",
       "stack_out": []
     },
-    "61": {
+    "70": {
       "op": "pushbytess 0xda53fefe 0xf927a9f6 0x5b47b18e 0x6c8a0318 0xa07d00cf 0xd4d7aa5c // method \"createApplication(account)void\", method \"initApplication(pay)void\", method \"addFluxTier(uint64,uint64)void\", method \"removeFluxTier(uint64)void\", method \"setUserTier(address,uint64)void\", method \"getUserTier(address)uint64\"",
       "defined_out": [
         "Method(addFluxTier(uint64,uint64)void)",
@@ -48,7 +48,7 @@
         "Method(getUserTier(address)uint64)"
       ]
     },
-    "93": {
+    "102": {
       "op": "txna ApplicationArgs 0",
       "defined_out": [
         "Method(addFluxTier(uint64,uint64)void)",
@@ -69,11 +69,11 @@
         "tmp%2#0"
       ]
     },
-    "96": {
+    "105": {
       "op": "match main_createApplication_route@3 main_initApplication_route@4 main_addFluxTier_route@5 main_removeFluxTier_route@6 main_setUserTier_route@7 main_getUserTier_route@8",
       "stack_out": []
     },
-    "110": {
+    "119": {
       "block": "main_after_if_else@12",
       "stack_in": [],
       "op": "intc_1 // 0",
@@ -84,11 +84,11 @@
         "tmp%0#0"
       ]
     },
-    "111": {
+    "120": {
       "op": "return",
       "stack_out": []
     },
-    "112": {
+    "121": {
       "block": "main_getUserTier_route@8",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -99,7 +99,7 @@
         "tmp%29#0"
       ]
     },
-    "114": {
+    "123": {
       "op": "!",
       "defined_out": [
         "tmp%30#0"
@@ -108,12 +108,12 @@
         "tmp%30#0"
       ]
     },
-    "115": {
+    "124": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "116": {
+    "125": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%31#0"
@@ -122,12 +122,12 @@
         "tmp%31#0"
       ]
     },
-    "118": {
+    "127": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "119": {
+    "128": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "reinterpret_bytes[32]%1#0"
@@ -136,7 +136,7 @@
         "reinterpret_bytes[32]%1#0"
       ]
     },
-    "122": {
+    "131": {
       "callsub": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.getUserTier",
       "op": "callsub getUserTier",
       "defined_out": [
@@ -146,7 +146,7 @@
         "tmp%33#0"
       ]
     },
-    "125": {
+    "134": {
       "op": "pushbytes 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -157,14 +157,14 @@
         "0x151f7c75"
       ]
     },
-    "131": {
+    "140": {
       "op": "swap",
       "stack_out": [
         "0x151f7c75",
         "tmp%33#0"
       ]
     },
-    "132": {
+    "141": {
       "op": "concat",
       "defined_out": [
         "tmp%34#0"
@@ -173,11 +173,11 @@
         "tmp%34#0"
       ]
     },
-    "133": {
+    "142": {
       "op": "log",
       "stack_out": []
     },
-    "134": {
+    "143": {
       "op": "intc_0 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -186,11 +186,11 @@
         "tmp%0#0"
       ]
     },
-    "135": {
+    "144": {
       "op": "return",
       "stack_out": []
     },
-    "136": {
+    "145": {
       "block": "main_setUserTier_route@7",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -201,7 +201,7 @@
         "tmp%24#0"
       ]
     },
-    "138": {
+    "147": {
       "op": "!",
       "defined_out": [
         "tmp%25#0"
@@ -210,12 +210,12 @@
         "tmp%25#0"
       ]
     },
-    "139": {
+    "148": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "140": {
+    "149": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%26#0"
@@ -224,12 +224,12 @@
         "tmp%26#0"
       ]
     },
-    "142": {
+    "151": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "143": {
+    "152": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "reinterpret_bytes[32]%0#0"
@@ -238,7 +238,7 @@
         "reinterpret_bytes[32]%0#0"
       ]
     },
-    "146": {
+    "155": {
       "op": "txna ApplicationArgs 2",
       "defined_out": [
         "reinterpret_bytes[32]%0#0",
@@ -249,7 +249,7 @@
         "reinterpret_bytes[8]%3#0"
       ]
     },
-    "149": {
+    "158": {
       "op": "btoi",
       "defined_out": [
         "reinterpret_bytes[32]%0#0",
@@ -260,12 +260,12 @@
         "tmp%28#0"
       ]
     },
-    "150": {
+    "159": {
       "callsub": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.setUserTier",
       "op": "callsub setUserTier",
       "stack_out": []
     },
-    "153": {
+    "162": {
       "op": "intc_0 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -274,11 +274,11 @@
         "tmp%0#0"
       ]
     },
-    "154": {
+    "163": {
       "op": "return",
       "stack_out": []
     },
-    "155": {
+    "164": {
       "block": "main_removeFluxTier_route@6",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -289,7 +289,7 @@
         "tmp%19#0"
       ]
     },
-    "157": {
+    "166": {
       "op": "!",
       "defined_out": [
         "tmp%20#0"
@@ -298,12 +298,12 @@
         "tmp%20#0"
       ]
     },
-    "158": {
+    "167": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "159": {
+    "168": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%21#0"
@@ -312,12 +312,12 @@
         "tmp%21#0"
       ]
     },
-    "161": {
+    "170": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "162": {
+    "171": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "reinterpret_bytes[8]%2#0"
@@ -326,7 +326,7 @@
         "reinterpret_bytes[8]%2#0"
       ]
     },
-    "165": {
+    "174": {
       "op": "btoi",
       "defined_out": [
         "tmp%23#0"
@@ -335,12 +335,12 @@
         "tmp%23#0"
       ]
     },
-    "166": {
+    "175": {
       "callsub": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.removeFluxTier",
       "op": "callsub removeFluxTier",
       "stack_out": []
     },
-    "169": {
+    "178": {
       "op": "intc_0 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -349,11 +349,11 @@
         "tmp%0#0"
       ]
     },
-    "170": {
+    "179": {
       "op": "return",
       "stack_out": []
     },
-    "171": {
+    "180": {
       "block": "main_addFluxTier_route@5",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -364,7 +364,7 @@
         "tmp%14#0"
       ]
     },
-    "173": {
+    "182": {
       "op": "!",
       "defined_out": [
         "tmp%15#0"
@@ -373,12 +373,12 @@
         "tmp%15#0"
       ]
     },
-    "174": {
+    "183": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "175": {
+    "184": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%16#0"
@@ -387,12 +387,12 @@
         "tmp%16#0"
       ]
     },
-    "177": {
+    "186": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "178": {
+    "187": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "reinterpret_bytes[8]%0#0"
@@ -401,7 +401,7 @@
         "reinterpret_bytes[8]%0#0"
       ]
     },
-    "181": {
+    "190": {
       "op": "btoi",
       "defined_out": [
         "tmp%18#0"
@@ -410,7 +410,7 @@
         "tmp%18#0"
       ]
     },
-    "182": {
+    "191": {
       "op": "txna ApplicationArgs 2",
       "defined_out": [
         "reinterpret_bytes[8]%1#0",
@@ -421,12 +421,12 @@
         "reinterpret_bytes[8]%1#0"
       ]
     },
-    "185": {
+    "194": {
       "callsub": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.addFluxTier",
       "op": "callsub addFluxTier",
       "stack_out": []
     },
-    "188": {
+    "197": {
       "op": "intc_0 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -435,11 +435,11 @@
         "tmp%0#0"
       ]
     },
-    "189": {
+    "198": {
       "op": "return",
       "stack_out": []
     },
-    "190": {
+    "199": {
       "block": "main_initApplication_route@4",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -450,7 +450,7 @@
         "tmp%9#0"
       ]
     },
-    "192": {
+    "201": {
       "op": "!",
       "defined_out": [
         "tmp%10#0"
@@ -459,12 +459,12 @@
         "tmp%10#0"
       ]
     },
-    "193": {
+    "202": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "194": {
+    "203": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%11#0"
@@ -473,12 +473,12 @@
         "tmp%11#0"
       ]
     },
-    "196": {
+    "205": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "197": {
+    "206": {
       "op": "txn GroupIndex",
       "defined_out": [
         "tmp%13#0"
@@ -487,7 +487,7 @@
         "tmp%13#0"
       ]
     },
-    "199": {
+    "208": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -498,7 +498,7 @@
         "1"
       ]
     },
-    "200": {
+    "209": {
       "op": "-",
       "defined_out": [
         "gtxn_idx%0#0"
@@ -507,7 +507,7 @@
         "gtxn_idx%0#0"
       ]
     },
-    "201": {
+    "210": {
       "op": "dup",
       "defined_out": [
         "gtxn_idx%0#0",
@@ -518,7 +518,7 @@
         "gtxn_idx%0#0 (copy)"
       ]
     },
-    "202": {
+    "211": {
       "op": "gtxns TypeEnum",
       "defined_out": [
         "gtxn_idx%0#0",
@@ -529,7 +529,7 @@
         "gtxn_type%0#0"
       ]
     },
-    "204": {
+    "213": {
       "op": "intc_0 // pay",
       "defined_out": [
         "gtxn_idx%0#0",
@@ -542,7 +542,7 @@
         "pay"
       ]
     },
-    "205": {
+    "214": {
       "op": "==",
       "defined_out": [
         "gtxn_idx%0#0",
@@ -553,19 +553,19 @@
         "gtxn_type_matches%0#0"
       ]
     },
-    "206": {
+    "215": {
       "error": "transaction type is pay",
       "op": "assert // transaction type is pay",
       "stack_out": [
         "gtxn_idx%0#0"
       ]
     },
-    "207": {
+    "216": {
       "callsub": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.initApplication",
       "op": "callsub initApplication",
       "stack_out": []
     },
-    "210": {
+    "219": {
       "op": "intc_0 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -574,11 +574,11 @@
         "tmp%0#0"
       ]
     },
-    "211": {
+    "220": {
       "op": "return",
       "stack_out": []
     },
-    "212": {
+    "221": {
       "block": "main_createApplication_route@3",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -589,7 +589,7 @@
         "tmp%3#0"
       ]
     },
-    "214": {
+    "223": {
       "op": "!",
       "defined_out": [
         "tmp%4#0"
@@ -598,12 +598,12 @@
         "tmp%4#0"
       ]
     },
-    "215": {
+    "224": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "216": {
+    "225": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%5#0"
@@ -612,7 +612,7 @@
         "tmp%5#0"
       ]
     },
-    "218": {
+    "227": {
       "op": "!",
       "defined_out": [
         "tmp%6#0"
@@ -621,12 +621,12 @@
         "tmp%6#0"
       ]
     },
-    "219": {
+    "228": {
       "error": "can only call when creating",
       "op": "assert // can only call when creating",
       "stack_out": []
     },
-    "220": {
+    "229": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "reinterpret_bytes[1]%0#0"
@@ -635,7 +635,7 @@
         "reinterpret_bytes[1]%0#0"
       ]
     },
-    "223": {
+    "232": {
       "op": "btoi",
       "defined_out": [
         "tmp%7#0"
@@ -644,7 +644,7 @@
         "tmp%7#0"
       ]
     },
-    "224": {
+    "233": {
       "op": "txnas Accounts",
       "defined_out": [
         "tmp%8#0"
@@ -653,12 +653,12 @@
         "tmp%8#0"
       ]
     },
-    "226": {
+    "235": {
       "callsub": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.createApplication",
       "op": "callsub createApplication",
       "stack_out": []
     },
-    "229": {
+    "238": {
       "op": "intc_0 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -667,11 +667,11 @@
         "tmp%0#0"
       ]
     },
-    "230": {
+    "239": {
       "op": "return",
       "stack_out": []
     },
-    "231": {
+    "240": {
       "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.createApplication",
       "params": {
         "admin#0": "bytes"
@@ -680,7 +680,7 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "234": {
+    "243": {
       "op": "bytec_2 // \"admin_account\"",
       "defined_out": [
         "\"admin_account\""
@@ -689,7 +689,7 @@
         "\"admin_account\""
       ]
     },
-    "235": {
+    "244": {
       "op": "frame_dig -1",
       "defined_out": [
         "\"admin_account\"",
@@ -700,15 +700,15 @@
         "admin#0 (copy)"
       ]
     },
-    "237": {
+    "246": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "238": {
+    "247": {
       "retsub": true,
       "op": "retsub"
     },
-    "239": {
+    "248": {
       "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.initApplication",
       "params": {
         "mbrTxn#0": "uint64"
@@ -717,7 +717,7 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "242": {
+    "251": {
       "op": "frame_dig -1",
       "defined_out": [
         "mbrTxn#0 (copy)"
@@ -726,7 +726,7 @@
         "mbrTxn#0 (copy)"
       ]
     },
-    "244": {
+    "253": {
       "op": "gtxns Receiver",
       "defined_out": [
         "tmp%0#0"
@@ -735,7 +735,7 @@
         "tmp%0#0"
       ]
     },
-    "246": {
+    "255": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "tmp%0#0",
@@ -746,7 +746,7 @@
         "tmp%1#0"
       ]
     },
-    "248": {
+    "257": {
       "op": "==",
       "defined_out": [
         "tmp%2#0"
@@ -755,17 +755,17 @@
         "tmp%2#0"
       ]
     },
-    "249": {
+    "258": {
       "op": "bz initApplication_bool_false@3",
       "stack_out": []
     },
-    "252": {
+    "261": {
       "op": "frame_dig -1",
       "stack_out": [
         "mbrTxn#0 (copy)"
       ]
     },
-    "254": {
+    "263": {
       "op": "gtxns Amount",
       "defined_out": [
         "tmp%3#0"
@@ -774,7 +774,7 @@
         "tmp%3#0"
       ]
     },
-    "256": {
+    "265": {
       "op": "pushint 400000 // 400000",
       "defined_out": [
         "400000",
@@ -785,7 +785,7 @@
         "400000"
       ]
     },
-    "260": {
+    "269": {
       "op": "==",
       "defined_out": [
         "tmp%4#0"
@@ -794,11 +794,11 @@
         "tmp%4#0"
       ]
     },
-    "261": {
+    "270": {
       "op": "bz initApplication_bool_false@3",
       "stack_out": []
     },
-    "264": {
+    "273": {
       "op": "intc_0 // 1",
       "defined_out": [
         "and_result%0#0"
@@ -807,7 +807,7 @@
         "and_result%0#0"
       ]
     },
-    "265": {
+    "274": {
       "block": "initApplication_bool_merge@4",
       "stack_in": [
         "and_result%0#0"
@@ -817,7 +817,7 @@
       "defined_out": [],
       "stack_out": []
     },
-    "266": {
+    "275": {
       "op": "bytec_0 // \"ft\"",
       "defined_out": [
         "\"ft\""
@@ -826,7 +826,7 @@
         "\"ft\""
       ]
     },
-    "267": {
+    "276": {
       "op": "pushint 160 // 160",
       "defined_out": [
         "\"ft\"",
@@ -837,7 +837,7 @@
         "160"
       ]
     },
-    "270": {
+    "279": {
       "op": "box_create",
       "defined_out": [
         "{box_create}"
@@ -846,11 +846,11 @@
         "{box_create}"
       ]
     },
-    "271": {
+    "280": {
       "op": "pop",
       "stack_out": []
     },
-    "272": {
+    "281": {
       "op": "bytec_1 // \"current_num_tiers\"",
       "defined_out": [
         "\"current_num_tiers\""
@@ -859,7 +859,7 @@
         "\"current_num_tiers\""
       ]
     },
-    "273": {
+    "282": {
       "op": "intc_1 // 0",
       "defined_out": [
         "\"current_num_tiers\"",
@@ -870,15 +870,15 @@
         "0"
       ]
     },
-    "274": {
+    "283": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "275": {
+    "284": {
       "retsub": true,
       "op": "retsub"
     },
-    "276": {
+    "285": {
       "block": "initApplication_bool_false@3",
       "stack_in": [],
       "op": "intc_1 // 0",
@@ -889,10 +889,10 @@
         "and_result%0#0"
       ]
     },
-    "277": {
+    "286": {
       "op": "b initApplication_bool_merge@4"
     },
-    "280": {
+    "289": {
       "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.addFluxTier",
       "params": {
         "tierNumber#0": "uint64",
@@ -902,7 +902,7 @@
       "stack_in": [],
       "op": "proto 2 0"
     },
-    "283": {
+    "292": {
       "op": "txn Sender",
       "defined_out": [
         "tmp%0#0"
@@ -911,7 +911,7 @@
         "tmp%0#0"
       ]
     },
-    "285": {
+    "294": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0",
@@ -922,7 +922,7 @@
         "0"
       ]
     },
-    "286": {
+    "295": {
       "op": "bytec_2 // \"admin_account\"",
       "defined_out": [
         "\"admin_account\"",
@@ -935,7 +935,7 @@
         "\"admin_account\""
       ]
     },
-    "287": {
+    "296": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -948,7 +948,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "288": {
+    "297": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
@@ -956,7 +956,7 @@
         "maybe_value%0#0"
       ]
     },
-    "289": {
+    "298": {
       "op": "==",
       "defined_out": [
         "tmp%1#0"
@@ -965,11 +965,11 @@
         "tmp%1#0"
       ]
     },
-    "290": {
+    "299": {
       "op": "assert",
       "stack_out": []
     },
-    "291": {
+    "300": {
       "op": "frame_dig -2",
       "defined_out": [
         "tierNumber#0 (copy)"
@@ -978,7 +978,7 @@
         "tierNumber#0 (copy)"
       ]
     },
-    "293": {
+    "302": {
       "op": "itob",
       "defined_out": [
         "val_as_bytes%0#0"
@@ -987,7 +987,7 @@
         "val_as_bytes%0#0"
       ]
     },
-    "294": {
+    "303": {
       "op": "frame_dig -1",
       "defined_out": [
         "minRequired#0 (copy)",
@@ -998,7 +998,7 @@
         "minRequired#0 (copy)"
       ]
     },
-    "296": {
+    "305": {
       "op": "concat",
       "defined_out": [
         "newTier#0"
@@ -1007,7 +1007,7 @@
         "newTier#0"
       ]
     },
-    "297": {
+    "306": {
       "op": "bytec_0 // \"ft\"",
       "defined_out": [
         "\"ft\"",
@@ -1018,7 +1018,7 @@
         "\"ft\""
       ]
     },
-    "298": {
+    "307": {
       "op": "box_get",
       "defined_out": [
         "maybe_exists%1#0",
@@ -1031,7 +1031,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "299": {
+    "308": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
@@ -1039,7 +1039,7 @@
         "maybe_value%1#0"
       ]
     },
-    "300": {
+    "309": {
       "op": "frame_dig -2",
       "stack_out": [
         "newTier#0",
@@ -1047,7 +1047,7 @@
         "tierNumber#0 (copy)"
       ]
     },
-    "302": {
+    "311": {
       "op": "intc_2 // 10",
       "defined_out": [
         "10",
@@ -1062,7 +1062,7 @@
         "10"
       ]
     },
-    "303": {
+    "312": {
       "op": "<",
       "defined_out": [
         "index_is_in_bounds%0#0",
@@ -1075,7 +1075,7 @@
         "index_is_in_bounds%0#0"
       ]
     },
-    "304": {
+    "313": {
       "error": "Index access is out of bounds",
       "op": "assert // Index access is out of bounds",
       "stack_out": [
@@ -1083,7 +1083,7 @@
         "maybe_value%1#0"
       ]
     },
-    "305": {
+    "314": {
       "op": "frame_dig -2",
       "stack_out": [
         "newTier#0",
@@ -1091,7 +1091,7 @@
         "tierNumber#0 (copy)"
       ]
     },
-    "307": {
+    "316": {
       "op": "intc_3 // 16",
       "defined_out": [
         "16",
@@ -1106,7 +1106,7 @@
         "16"
       ]
     },
-    "308": {
+    "317": {
       "op": "*",
       "defined_out": [
         "maybe_value%1#0",
@@ -1119,7 +1119,7 @@
         "write_offset%0#0"
       ]
     },
-    "309": {
+    "318": {
       "op": "uncover 2",
       "stack_out": [
         "maybe_value%1#0",
@@ -1127,7 +1127,7 @@
         "newTier#0"
       ]
     },
-    "311": {
+    "320": {
       "op": "replace3",
       "defined_out": [
         "updated_target%0#0"
@@ -1136,31 +1136,31 @@
         "updated_target%0#0"
       ]
     },
-    "312": {
+    "321": {
       "op": "bytec_0 // \"ft\"",
       "stack_out": [
         "updated_target%0#0",
         "\"ft\""
       ]
     },
-    "313": {
+    "322": {
       "op": "swap",
       "stack_out": [
         "\"ft\"",
         "updated_target%0#0"
       ]
     },
-    "314": {
+    "323": {
       "op": "box_put",
       "stack_out": []
     },
-    "315": {
+    "324": {
       "op": "intc_1 // 0",
       "stack_out": [
         "0"
       ]
     },
-    "316": {
+    "325": {
       "op": "bytec_1 // \"current_num_tiers\"",
       "defined_out": [
         "\"current_num_tiers\"",
@@ -1171,7 +1171,7 @@
         "\"current_num_tiers\""
       ]
     },
-    "317": {
+    "326": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%2#0",
@@ -1182,14 +1182,14 @@
         "maybe_exists%2#0"
       ]
     },
-    "318": {
+    "327": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
         "maybe_value%2#0"
       ]
     },
-    "319": {
+    "328": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -1200,7 +1200,7 @@
         "1"
       ]
     },
-    "320": {
+    "329": {
       "op": "+",
       "defined_out": [
         "new_state_value%0#0"
@@ -1209,29 +1209,29 @@
         "new_state_value%0#0"
       ]
     },
-    "321": {
+    "330": {
       "op": "bytec_1 // \"current_num_tiers\"",
       "stack_out": [
         "new_state_value%0#0",
         "\"current_num_tiers\""
       ]
     },
-    "322": {
+    "331": {
       "op": "swap",
       "stack_out": [
         "\"current_num_tiers\"",
         "new_state_value%0#0"
       ]
     },
-    "323": {
+    "332": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "324": {
+    "333": {
       "retsub": true,
       "op": "retsub"
     },
-    "325": {
+    "334": {
       "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.removeFluxTier",
       "params": {
         "tierNumber#0": "uint64"
@@ -1240,7 +1240,7 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "328": {
+    "337": {
       "op": "txn Sender",
       "defined_out": [
         "tmp%0#0"
@@ -1249,7 +1249,7 @@
         "tmp%0#0"
       ]
     },
-    "330": {
+    "339": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0",
@@ -1260,7 +1260,7 @@
         "0"
       ]
     },
-    "331": {
+    "340": {
       "op": "bytec_2 // \"admin_account\"",
       "defined_out": [
         "\"admin_account\"",
@@ -1273,7 +1273,7 @@
         "\"admin_account\""
       ]
     },
-    "332": {
+    "341": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -1286,7 +1286,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "333": {
+    "342": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
@@ -1294,7 +1294,7 @@
         "maybe_value%0#0"
       ]
     },
-    "334": {
+    "343": {
       "op": "==",
       "defined_out": [
         "tmp%1#0"
@@ -1303,11 +1303,11 @@
         "tmp%1#0"
       ]
     },
-    "335": {
+    "344": {
       "op": "assert",
       "stack_out": []
     },
-    "336": {
+    "345": {
       "op": "bytec_0 // \"ft\"",
       "defined_out": [
         "\"ft\""
@@ -1316,7 +1316,7 @@
         "\"ft\""
       ]
     },
-    "337": {
+    "346": {
       "op": "box_get",
       "defined_out": [
         "maybe_exists%1#0",
@@ -1327,14 +1327,14 @@
         "maybe_exists%1#0"
       ]
     },
-    "338": {
+    "347": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
         "maybe_value%1#0"
       ]
     },
-    "339": {
+    "348": {
       "op": "frame_dig -1",
       "defined_out": [
         "maybe_value%1#0",
@@ -1345,7 +1345,7 @@
         "tierNumber#0 (copy)"
       ]
     },
-    "341": {
+    "350": {
       "op": "intc_2 // 10",
       "defined_out": [
         "10",
@@ -1358,7 +1358,7 @@
         "10"
       ]
     },
-    "342": {
+    "351": {
       "op": "<",
       "defined_out": [
         "index_is_in_bounds%0#0",
@@ -1369,21 +1369,21 @@
         "index_is_in_bounds%0#0"
       ]
     },
-    "343": {
+    "352": {
       "error": "Index access is out of bounds",
       "op": "assert // Index access is out of bounds",
       "stack_out": [
         "maybe_value%1#0"
       ]
     },
-    "344": {
+    "353": {
       "op": "frame_dig -1",
       "stack_out": [
         "maybe_value%1#0",
         "tierNumber#0 (copy)"
       ]
     },
-    "346": {
+    "355": {
       "op": "intc_3 // 16",
       "defined_out": [
         "16",
@@ -1396,7 +1396,7 @@
         "16"
       ]
     },
-    "347": {
+    "356": {
       "op": "*",
       "defined_out": [
         "maybe_value%1#0",
@@ -1407,7 +1407,7 @@
         "write_offset%0#0"
       ]
     },
-    "348": {
+    "357": {
       "op": "pushbytes 0x00000000000000000000000000000000",
       "defined_out": [
         "0x00000000000000000000000000000000",
@@ -1420,7 +1420,7 @@
         "0x00000000000000000000000000000000"
       ]
     },
-    "366": {
+    "375": {
       "op": "replace3",
       "defined_out": [
         "updated_target%0#0"
@@ -1429,31 +1429,31 @@
         "updated_target%0#0"
       ]
     },
-    "367": {
+    "376": {
       "op": "bytec_0 // \"ft\"",
       "stack_out": [
         "updated_target%0#0",
         "\"ft\""
       ]
     },
-    "368": {
+    "377": {
       "op": "swap",
       "stack_out": [
         "\"ft\"",
         "updated_target%0#0"
       ]
     },
-    "369": {
+    "378": {
       "op": "box_put",
       "stack_out": []
     },
-    "370": {
+    "379": {
       "op": "intc_1 // 0",
       "stack_out": [
         "0"
       ]
     },
-    "371": {
+    "380": {
       "op": "bytec_1 // \"current_num_tiers\"",
       "defined_out": [
         "\"current_num_tiers\"",
@@ -1464,7 +1464,7 @@
         "\"current_num_tiers\""
       ]
     },
-    "372": {
+    "381": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%2#0",
@@ -1475,14 +1475,14 @@
         "maybe_exists%2#0"
       ]
     },
-    "373": {
+    "382": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
         "maybe_value%2#0"
       ]
     },
-    "374": {
+    "383": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -1493,7 +1493,7 @@
         "1"
       ]
     },
-    "375": {
+    "384": {
       "op": "-",
       "defined_out": [
         "new_state_value%0#0"
@@ -1502,29 +1502,29 @@
         "new_state_value%0#0"
       ]
     },
-    "376": {
+    "385": {
       "op": "bytec_1 // \"current_num_tiers\"",
       "stack_out": [
         "new_state_value%0#0",
         "\"current_num_tiers\""
       ]
     },
-    "377": {
+    "386": {
       "op": "swap",
       "stack_out": [
         "\"current_num_tiers\"",
         "new_state_value%0#0"
       ]
     },
-    "378": {
+    "387": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "379": {
+    "388": {
       "retsub": true,
       "op": "retsub"
     },
-    "380": {
+    "389": {
       "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.setUserTier",
       "params": {
         "user#0": "bytes",
@@ -1534,7 +1534,7 @@
       "stack_in": [],
       "op": "proto 2 0"
     },
-    "383": {
+    "392": {
       "op": "frame_dig -1",
       "defined_out": [
         "tier#0 (copy)"
@@ -1543,7 +1543,7 @@
         "tier#0 (copy)"
       ]
     },
-    "385": {
+    "394": {
       "op": "itob",
       "defined_out": [
         "record#0"
@@ -1552,7 +1552,7 @@
         "record#0"
       ]
     },
-    "386": {
+    "395": {
       "op": "bytec_3 // \"flux_record\"",
       "defined_out": [
         "\"flux_record\"",
@@ -1563,7 +1563,7 @@
         "\"flux_record\""
       ]
     },
-    "387": {
+    "396": {
       "op": "frame_dig -2",
       "defined_out": [
         "\"flux_record\"",
@@ -1576,7 +1576,7 @@
         "user#0 (copy)"
       ]
     },
-    "389": {
+    "398": {
       "op": "concat",
       "defined_out": [
         "record#0",
@@ -1587,22 +1587,22 @@
         "tmp%0#0"
       ]
     },
-    "390": {
+    "399": {
       "op": "swap",
       "stack_out": [
         "tmp%0#0",
         "record#0"
       ]
     },
-    "391": {
+    "400": {
       "op": "box_put",
       "stack_out": []
     },
-    "392": {
+    "401": {
       "retsub": true,
       "op": "retsub"
     },
-    "393": {
+    "402": {
       "subroutine": "smart_contracts/flux_gate/flux-gate.algo.ts::FluxGate.getUserTier",
       "params": {
         "user#0": "bytes"
@@ -1611,7 +1611,7 @@
       "stack_in": [],
       "op": "proto 1 1"
     },
-    "396": {
+    "405": {
       "op": "bytec_3 // \"flux_record\"",
       "defined_out": [
         "\"flux_record\""
@@ -1620,7 +1620,7 @@
         "\"flux_record\""
       ]
     },
-    "397": {
+    "406": {
       "op": "frame_dig -1",
       "defined_out": [
         "\"flux_record\"",
@@ -1631,7 +1631,7 @@
         "user#0 (copy)"
       ]
     },
-    "399": {
+    "408": {
       "op": "concat",
       "defined_out": [
         "tmp%0#0"
@@ -1640,7 +1640,7 @@
         "tmp%0#0"
       ]
     },
-    "400": {
+    "409": {
       "op": "dup",
       "defined_out": [
         "tmp%0#0"
@@ -1650,7 +1650,7 @@
         "tmp%0#0"
       ]
     },
-    "401": {
+    "410": {
       "op": "box_len",
       "defined_out": [
         "maybe_exists%0#0",
@@ -1663,82 +1663,75 @@
         "maybe_exists%0#0"
       ]
     },
-    "402": {
+    "411": {
       "op": "bury 1",
       "stack_out": [
         "tmp%0#0",
         "maybe_exists%0#0"
       ]
     },
-    "404": {
-      "op": "bnz getUserTier_after_if_else@2",
+    "413": {
+      "op": "bz getUserTier_else_body@2",
       "stack_out": [
         "tmp%0#0"
       ]
     },
-    "407": {
-      "op": "frame_dig 0",
-      "stack_out": [
-        "tmp%0#0",
-        "tmp%0#0"
-      ]
-    },
-    "409": {
+    "416": {
       "op": "box_get",
       "defined_out": [
         "maybe_exists%1#0",
-        "record#0",
-        "tmp%0#0"
+        "record#0"
       ],
       "stack_out": [
-        "tmp%0#0",
         "record#0",
         "maybe_exists%1#0"
       ]
     },
-    "410": {
+    "417": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
-        "tmp%0#0",
         "record#0"
       ]
     },
-    "411": {
+    "418": {
       "error": "Index access is out of bounds",
       "op": "extract 0 8 // on error: Index access is out of bounds",
       "defined_out": [
-        "tmp%0#0",
         "tmp%2#0"
       ],
       "stack_out": [
-        "tmp%0#0",
         "tmp%2#0"
       ]
     },
-    "414": {
-      "op": "swap"
-    },
-    "415": {
+    "421": {
       "retsub": true,
       "op": "retsub"
     },
-    "416": {
-      "block": "getUserTier_after_if_else@2",
+    "422": {
+      "block": "getUserTier_else_body@2",
       "stack_in": [
         "tmp%0#0"
       ],
-      "op": "pushbytes 0x0000000000000000",
+      "op": "bytec 4 // 0x0000000000000000",
       "defined_out": [
-        "0x0000000000000000"
+        "0x0000000000000000",
+        "tmp%0#0"
       ],
       "stack_out": [
         "tmp%0#0",
         "0x0000000000000000"
       ]
     },
-    "426": {
-      "op": "swap"
+    "424": {
+      "op": "box_put",
+      "stack_out": []
+    },
+    "425": {
+      "op": "bytec 4 // 0x0000000000000000",
+      "stack_out": [
+        "0x0000000000000000"
+      ]
     },
     "427": {
       "retsub": true,
